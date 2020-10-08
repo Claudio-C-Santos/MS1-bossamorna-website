@@ -2,28 +2,20 @@
 
 /* -------------------------Navigation Bar */
 
-.nav-bar {
+.navbar {
     width: 100%;
     background-color: #f1efe4;
     height: 65px;
-}
-
-/* WHY ISN'T THIS OVERRIDING BOOTSTRAP!? 
-
-.navbar-brand {
-    margin-right: 20px;
-}
-
-*/
-
-#nav-list {
     font-family: "Bebas Neue", sans-serif;
     font-size: 30px;
     letter-spacing: 4px;
     font-weight: 500;
     text-transform: uppercase;
     float:left;
-    height: inherit;
+}
+
+.navbar-brand {
+    margin-right: 20px;
 }
 
 .nav-link{
@@ -41,5 +33,160 @@
     float: right;
 }
 
+/* -------------------------Welcome */
+
+.welcome-name {
+    font-family: "Bebas Neue", sans-serif; 
+    text-align: center;
+    position: relative;
+    color: #72716d;
+    text-shadow: 10px 20px 5px #f1efe4;
+}
+
+.welcome-name h1 {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    right: -50px;
+    letter-spacing: 5px;
+    font-size: 100px;
+}
+
+.welcome-image {
+    width: 100%;
+    height: 500px;
+    clear: both;
+    text-align: center;
+    z-index: -1;
+}
+
+.welcome-image img {
+    height: inherit;
+}
+
+.welcome-newalbum {
+    font-family: "Bebas Neue", sans-serif; 
+    position: relative;    
+}
+
+.welcome-newalbum h2 {
+    position: absolute;
+    bottom: 50px;
+    letter-spacing: 3px;
+    padding: 10px;
+    border: 5px solid #72716d;
+    border-radius: 50%;
+    background-color:#f1efe4;
+}
+
+/* -------------------------Footer */
 
 
+footer {
+    height: inherit;
+    background-color: #555555;
+    text-align: center;
+}
+
+.footer-socialmedia ul {
+    margin-top: 30px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    padding: 0;
+}
+
+.footer-socialmedia ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-socialmedia ul li a i {
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 12px 0;
+    line-height: 7px;
+    border: 1px solid #f1efe4;
+    border-radius: 50%;
+    background-color:#f1efe4; 
+    color: #72716d;
+    margin: 0 20px;
+}
+
+.footer-socialmedia ul li a i:hover {
+    background-color: #be674d;
+    color: #f1efe4;
+}
+
+.footer-break {
+    width: 60%;
+    background-color: #be674d;
+    margin: 0 auto 0 auto;
+}
+
+.footer-subscribe {
+    margin: 12px 0;
+}
+
+.subscribe-form {
+    display: inline-block;
+    margin: 0;
+}
+
+.subscribe-btn {
+    height: 20px;
+    line-height: 0;
+    border-radius: 0;
+    border-top-right-radius: 25px; 
+    border-bottom-right-radius: 25px; 
+    background-color: #f1efe4;
+    color: #72716d;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    vertical-align: bottom;
+}
+
+.subscribe-btn:hover {
+    background-color: #be674d;    
+}
+
+#footer-title {
+    font-family: "Bebas Neue", sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #f1efe4;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    text-decoration-color: #be674d;
+}
+
+#subscribe-email {
+    height: 20px;
+    border: none;
+    background-color: #f1efe4;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+    padding: 10px 10px 10px 5px;
+    vertical-align: bottom;
+}
+
+/* -------------------------Modal Subscription */
+
+.modal-content {
+    background-color: #f1efe4;
+}
+
+.modal-body {
+    font-family: "Exo", sans-serif;    
+}
+
+.modal-subscribe-btn {
+    border: none;
+}
+
+.modal-subscribe-btn:hover {
+    background-color: #be674d;    
+}
