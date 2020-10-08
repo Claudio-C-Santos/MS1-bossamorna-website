@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+
 <!--navbar is BOOTSTRAP-->
 <!--UPDATE LINK OF NAVIGATION BAR-->
         <nav class="navbar navbar-expand-md navbar-light navbar-toggler">
@@ -37,8 +38,19 @@
             </div>
         </nav>
     </header>
-    
-
+    <section class="container-fluid">
+        <div class="row welcome">
+            <div class="col-6 welcome-name d-none d-md-block">
+                <h1>"Encontros"</h1>
+                <h2>Coming Soon!</h2>
+                <button type="submit" class="btn btn-primary pre-order-btn" data-toggle="modal" data-target="#subscribe-modal">
+                    <strong>Pre-Order</strong>
+                </button>
+            </div>
+            <div class="col-6 welcome-image">
+                <img src="assets/images/B&M - hero1.jpg" alt="Band Hero Image">    
+            </div>
+        </div>
     </section>
 
     <footer class="container-fluid">
@@ -74,10 +86,10 @@
             <div class="col-12 footer-subscribe d-none d-sm-block">
 <!--UPDATE LINK TO SUBSCRIBE MODAL-->
                 <form class="subscribe-form">
-                    <input type="email" placeholder="Subscribe here!" id="subscribe-email" required>
+                    <input type="email" placeholder="Email" id="subscribe-email" required>
 
                 <button type="submit" class="btn btn-primary subscribe-btn" data-toggle="modal" data-target="#subscribe-modal">
-                    <strong>Subscribe</strong>
+                    <strong>Subscribe our Newsletter</strong>
                 </button>
                 </form>
             </div>
