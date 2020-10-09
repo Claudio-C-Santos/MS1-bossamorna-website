@@ -5,17 +5,29 @@
 .navbar {
     width: 100%;
     background-color: #f1efe4;
-    height: 65px;
     font-family: "Bebas Neue", sans-serif;
     font-size: 30px;
     letter-spacing: 4px;
     font-weight: 500;
     text-transform: uppercase;
-    float:left;
 }
 
 .navbar-brand {
     margin-right: 20px;
+    margin-left: 10px;
+}
+.navbar-brand img {
+    width: 200px;
+    height: 100%;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-dropdown {
+    background-color: #f1efe4;    
 }
 
 .nav-link{
@@ -23,19 +35,19 @@
     line-height: 30px;
 }
 
-.nav-link.active {
-    background: transparent;
-    color: #747474;
-    font-weight: 700;
-} 
-
-.nav-pre-order {
-    float: right;
+.nav-link:hover {
+    color: #747474;  
 }
 
-/* -------------------------Welcome */
+.nav-link.active {
+    color: #747474;
+    font-weight: 700;
+}
 
-.welcome {
+
+/* -------------------------Index-Welcome */
+
+.index-welcome {
     text-shadow: 10px 20px 5px #f1efe4;
 }
 
@@ -71,21 +83,43 @@
 }
 
 .pre-order-btn:hover {
-    background-color: #be674d;    
+    background-color: #be674d;  
+    color: #f1efe4;
+}
+
+button:focus {
+    outline: none;
 }
 .welcome-image {
     width: 100%;
-    height: 500px;
     clear: both;
     text-align: center;
     z-index: -1;
+    display: flex;
 }
 
-.welcome-image img {
-    height: inherit;
+#welcome-band-image {
+    animation: welcome-fadeIn ease 10s;
+} 
+
+@keyframes welcome-fadeIn {
+    from {
+        opacity: 10%; 
+    }
+    to {
+        opacity: 100%
+    }
+}  
+
+/* -------------------------Index-Gallery */
+
+
+.carousel-fade {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-
-
 
 /* -------------------------Footer */
 
@@ -147,6 +181,8 @@ footer {
     border-radius: 0;
     border-top-right-radius: 25px; 
     border-bottom-right-radius: 25px; 
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;    
     background-color: #f1efe4;
     color: #72716d;
     padding: 10px 10px 10px 5px;
@@ -157,6 +193,7 @@ footer {
 .subscribe-btn:hover {
     background-color: #be674d;    
 }
+
 
 #footer-title {
     font-family: "Bebas Neue", sans-serif;
