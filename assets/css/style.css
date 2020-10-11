@@ -40,6 +40,7 @@ hr {
 }
 
 .nav-link{
+    margin: 10px;
     color: #72716d;
     line-height: 30px;
 }
@@ -294,6 +295,12 @@ footer {
     font-size: 18px;
 }
 
+.nav-link{
+    margin: 0px;
+    color: #72716d;
+    line-height: 30px;
+}
+
 .new-album {
     margin-top:15px;
 }
@@ -305,6 +312,7 @@ footer {
 .row-forms p {
     font-size: 15px;    
 }
+
 
 #album-title {
     font-size: 50px;
