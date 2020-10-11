@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
     margin-top: 55px;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* -------------------------Navigation Bar */
@@ -56,17 +61,13 @@ body {
 
 /* -------------------------Index-Welcome */
 
-.album-coming {
-    margin-bottom: 40px;
-}
-
 .new-album {
     font-family: "Bebas Neue", sans-serif; 
     text-align: center;
     color: #72716d;
     text-shadow: 10px 20px 5px #f1efe4;
+    margin-top: 30px;
 }
-
 .new-album h1 {
     width: 100%;
     letter-spacing: 5px;
@@ -82,7 +83,6 @@ body {
 
 .pre-order-btn {
     height: 60px;
-    width: 120px;
     line-height: 0;
     border-radius: 25px;
     background-color: #f1efe4;
@@ -105,6 +105,7 @@ button:focus {
     width: auto;
     height: auto;
     padding: 0;
+    margin-top: 30px;
 }
 
 
@@ -123,7 +124,7 @@ button:focus {
 100% {opacity:1;}
 }
 
-/* -------------------------Gallery Preview */
+/* -------------------------Index-Gallery */
 
 .section-divider {
     width: 75%;
@@ -131,24 +132,43 @@ button:focus {
     height: 2px;
 }
 
-.gallery-preview {
-    margin-top: 60px;
-    margin-bottom: 10px;
-}
-
-.title-preview h1 {
-    width: 100%;
-    letter-spacing: 5px;
-    font-size: 200px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
 .carousel-fade {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
+}
+
+/* -------------------------Index-Forms */
+
+.row-forms {
+    margin: 1rem;
+    text-align: justify;
+}
+
+
+.contact-forms {
+    width: 100%;
+    background-color: #f1efe4;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.form-btn {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#about-title {
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 1rem;
+    color: #72716d;
+}
+
+#row-form-btn {
+    margin-bottom: 0;
 }
 
 /* -------------------------Footer */
@@ -255,7 +275,7 @@ footer {
 }
 
 .modal-body {
-    font-family: "Exo", sans-serif;    
+    font-family: "Roboto", sans-serif;    
 }
 
 .modal-subscribe-btn {
@@ -268,7 +288,31 @@ footer {
 
 /* -------------------------Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px){
+
+.navbar {
+    font-size: 18px;
+}
+
+.new-album {
+    margin-top:15px;
+}
+
+.album-cover>img {
+    margin-top: 40px;
+}
+
+.row-forms p {
+    font-size: 15px;    
+}
+
+#album-title {
+    font-size: 50px;
+}
+
+}
+
+@media screen and (max-width: 425px) {
   .nav {
     display: inline;
   }
@@ -277,4 +321,23 @@ footer {
       font-size: 40px;
       padding-bottom: 20px;
     }
+
+.carousel-fade {
+    width: 70%;
+    }
+
+.row-forms {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.row-forms p {
+    font-size: 1rem;   
+}
+
+#about-title {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
 }
