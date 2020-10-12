@@ -1,12 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    margin-top: 55px;
+    margin-top: 70px;
 }
 
 hr {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.social-media-btn {
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 12px 0;
+    line-height: 7px;
+    border: 1px solid #f1efe4;
+    border-radius: 50%;
+    background-color:#f1efe4; 
+    color: #72716d;
+    margin: 0 20px;   
+}
+
+
+.social-media-btn:hover {
+    background-color: #be674d;
+    color: #f1efe4;
 }
 
 /* -------------------------Navigation Bar */
@@ -59,6 +78,84 @@ hr {
     font-weight: 700;
 }
 
+/* -------------------------Footer */
+
+footer {
+    height: inherit;
+    background-color: #555555;
+    text-align: center;
+}
+
+.footer-socialmedia ul {
+    margin-top: 30px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    padding: 0;
+}
+
+.footer-socialmedia ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.footer-break {
+    width: 60%;
+    background-color: #be674d;
+    margin: 0 auto 0 auto;
+}
+
+.footer-subscribe {
+    margin: 12px 0;
+}
+
+.subscribe-form {
+    display: inline-block;
+    margin: 0;
+}
+
+.subscribe-btn {
+    height: 20px;
+    line-height: 0;
+    border-radius: 0;
+    border-top-right-radius: 25px; 
+    border-bottom-right-radius: 25px; 
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;    
+    background-color: #f1efe4;
+    color: #72716d;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    vertical-align: bottom;
+}
+
+.subscribe-btn:hover {
+    background-color: #be674d;    
+}
+
+
+#footer-title {
+    font-family: "Bebas Neue", sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #f1efe4;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    text-decoration-color: #be674d;
+}
+
+#subscribe-email {
+    height: 20px;
+    border: none;
+    background-color: #f1efe4;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+    padding: 10px 10px 10px 5px;
+    vertical-align: bottom;
+}
 
 /* -------------------------Index-Welcome */
 
@@ -67,7 +164,6 @@ hr {
     text-align: center;
     color: #72716d;
     text-shadow: 10px 20px 5px #f1efe4;
-    margin-top: 30px;
 }
 .new-album h1 {
     width: 100%;
@@ -106,7 +202,6 @@ button:focus {
     width: auto;
     height: auto;
     padding: 0;
-    margin-top: 30px;
 }
 
 
@@ -172,101 +267,68 @@ button:focus {
     margin-bottom: 0;
 }
 
-/* -------------------------Footer */
+/* -------------------------Band - About Us */
 
-
-footer {
-    height: inherit;
-    background-color: #555555;
-    text-align: center;
+.about-text {
+    margin: 20px 0 20px 0;
+    text-align: justify;
 }
 
-.footer-socialmedia ul {
-    margin-top: 30px;
-    text-align: center;
-    margin: 15px 0 15px 0;
-    padding: 0;
+.about-band {
+    font-family: "Roboto", sans-serif; 
+    color: #72716d;
+    padding-top: 20px;   
 }
 
-.footer-socialmedia ul li {
-    list-style: none;
-    display: inline-block;
+.profile {
+    margin-top: 10px;
 }
 
-.footer-socialmedia ul li a i {
-    height: 32px;
-    width: 32px;
-    text-align: center;
-    padding: 12px 0;
-    line-height: 7px;
-    border: 1px solid #f1efe4;
+.row-band {
+    margin: 0 30px 30px 30px;
+}
+
+#about-band-text {
+    margin-top: 40px;
+}
+
+.profile-pic {
     border-radius: 50%;
-    background-color:#f1efe4; 
-    color: #72716d;
-    margin: 0 20px;
+    border: 2px solid #72716d;
 }
 
-.footer-socialmedia ul li a i:hover {
-    background-color: #be674d;
-    color: #f1efe4;
+.profile-name{
+    display: inline;
+    margin-left: 30px;
 }
 
-.footer-break {
-    width: 60%;
-    background-color: #be674d;
-    margin: 0 auto 0 auto;
-}
-
-.footer-subscribe {
-    margin: 12px 0;
-}
-
-.subscribe-form {
-    display: inline-block;
-    margin: 0;
-}
-
-.subscribe-btn {
-    height: 20px;
-    line-height: 0;
-    border-radius: 0;
-    border-top-right-radius: 25px; 
-    border-bottom-right-radius: 25px; 
-    border-top-left-radius: 25px; 
-    border-bottom-left-radius: 25px;    
-    background-color: #f1efe4;
-    color: #72716d;
-    padding: 10px 10px 10px 5px;
-    border: none;
-    vertical-align: bottom;
-}
-
-.subscribe-btn:hover {
-    background-color: #be674d;    
-}
-
-
-#footer-title {
-    font-family: "Bebas Neue", sans-serif;
+.row-profile {
     width: 100%;
-    text-align: center;
-    color: #f1efe4;
-    font-size: 25px;
-    margin: 10px;
-    margin-bottom: 0;
-    letter-spacing: 4px;
-    text-decoration: underline;
-    text-decoration-color: #be674d;
 }
 
-#subscribe-email {
-    height: 20px;
-    border: none;
-    background-color: #f1efe4;
-    border-top-left-radius: 25px; 
-    border-bottom-left-radius: 25px;
-    padding: 10px 10px 10px 5px;
-    vertical-align: bottom;
+.profile-socialmedia {
+    height: inherit;
+    width: 100%;
+}
+
+.profile-socialmedia ul {
+    margin-top: 25px;
+}
+
+.row-band ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row-band ul li p {
+    display: inline;
+    color:#72716d
+}
+
+.row-band ul li a:hover {
+    color: #72716d; 
+    text-decoration: none;   
 }
 
 /* -------------------------Modal Subscription */
@@ -348,4 +410,36 @@ footer {
     margin-bottom: 0;
 }
 
+.row-band {
+    margin: 0 0 30px 0;
+}
+
+.row-band h1 {
+    font-size: 30px;
+}
+
+.row-band h2 {
+    font-size: 25px;
+}
+
+.row-band ul li p {
+    display: none;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-name {
+    margin-top: 1rem;
+    margin-left: 0;
+    display: block;
+}
+
+.row-profile {
+    text-align: center;
+}
+
+.profile-socialmedia ul li {
+    display: inline-block;
 }
