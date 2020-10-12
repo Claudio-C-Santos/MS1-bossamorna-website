@@ -338,19 +338,23 @@ button:focus {
 }
 
 .gallery-title {
-    margin: 10px 0 30px 0;
-    font-size: 4rem;
+    margin: 20px 0 0 0;
+    font-size: 5rem;
+    letter-spacing: 4px;
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     color: #72716d;
     text-shadow: 10px 20px 5px #f1efe4;
 }
 
+
+
 /* -------------------------Gallery - Videos */
 
 .video {
     width: 100%;
     text-align: center;
+    margin: 40px 0 40px 0;
 }
 
 /* -------------------------Modal Subscription */
