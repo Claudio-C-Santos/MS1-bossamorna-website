@@ -288,10 +288,6 @@ button:focus {
     margin: 0 30px 30px 30px;
 }
 
-#about-band-text {
-    margin-top: 40px;
-}
-
 .profile-pic {
     border-radius: 50%;
     border: 2px solid #72716d;
@@ -413,6 +409,23 @@ button:focus {
     display: inline;
   }
 
+  .btn-sm {
+    height: 60px;
+    line-height: 0;
+    border-radius: 25px;
+    background-color: #be674d;
+    color: #f1efe4;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.btn-sm:hover {
+    background-color: #be674d;  
+    color: #f1efe4;
+}
+
   #album-title {
       font-size: 40px;
       padding-bottom: 20px;
@@ -476,6 +489,11 @@ button:focus {
 
 .social-media-btn {
     margin: 0 16px
+}
+
+.social-media-btn:hover {
+    background-color: #f1efe4;
+    color: #72716d;
 }
 
 iframe {
