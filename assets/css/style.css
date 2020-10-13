@@ -9,6 +9,16 @@ hr {
     margin-bottom: 40px;
 }
 
+.page-title {
+    margin: 20px 0 0 0;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    color: #72716d;
+    text-shadow: 10px 20px 5px #f1efe4;
+}
+
 .social-media-btn {
     height: 32px;
     width: 32px;
@@ -133,7 +143,6 @@ footer {
     background-color: #be674d;    
 }
 
-
 #footer-title {
     font-family: "Bebas Neue", sans-serif;
     width: 100%;
@@ -197,13 +206,16 @@ footer {
 
 button:focus {
     outline: none;
+    background-color: #f1efe4;
+    color: #72716d;
 }
+
+
 .album-cover {
     width: auto;
     height: auto;
     padding: 0;
 }
-
 
 .fadeIn {
     animation: fadeIn ease 2s;
@@ -337,18 +349,6 @@ button:focus {
     padding-top: 20px;
 }
 
-.gallery-title {
-    margin: 20px 0 0 0;
-    font-size: 5rem;
-    letter-spacing: 4px;
-    font-family: "Bebas Neue", sans-serif;
-    text-align: center;
-    color: #72716d;
-    text-shadow: 10px 20px 5px #f1efe4;
-}
-
-
-
 /* -------------------------Gallery - Videos */
 
 .video {
@@ -371,22 +371,80 @@ button:focus {
     border: 2px solid #72716d;
 }
 
-/* -------------------------Modal Subscription */
+/* -------------------------Calendar */
 
-.modal-content {
+.card-calendar {
+    width: 100%;
+    max-width: 18rem;
+    margin: auto;
+    text-align: center;
+    border: n;
+}
+.card-img {
+    height: 180px;
+}
+
+.row-calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.card-title {
+    margin-bottom: 8px;
+}
+
+.card-location {
+    margin-bottom: 1rem;
+}
+
+.add-calendar-btn {
+    background-color: #f1efe4;
+    color: #72716d;
+}
+
+.add-calendar-btn {
+    height: 30px;
+    line-height: 0;
+    border-radius: 25px;
+    background-color: #f1efe4;
+    color: #72716d;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.add-calendar-btn:hover {
+    background-color: #be674d;  
+    color: #f1efe4;
+}
+
+.modal-add-calendar {
     background-color: #f1efe4;
 }
 
-.modal-body {
-    font-family: "Roboto", sans-serif;    
-}
-
-.modal-subscribe-btn {
+.add-calendar-btn-close {
+    height: 30px;
+    line-height: 0;
+    border-radius: 25px;
+    background-color: #747474;
+    color: #f1efe4;
+    padding: 10px 10px 10px 10px;
     border: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
-.modal-subscribe-btn:hover {
-    background-color: #be674d;    
+/* -------------------------Modals */
+
+.modal-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #72716d;
+    text-align: center;
+    margin: 20px 0 20px 0;
+
 }
 
 /* -------------------------Media Queries */
@@ -530,5 +588,8 @@ iframe {
     margin: 1rem 0 0 0;
     padding: 0.5rem;
 }
+
+.card-calendar {
+    margin-bottom: 1rem;
 
 }
