@@ -239,9 +239,12 @@ button:focus {
 
 .row-forms {
     margin: 1rem;
-    text-align: justify;
+    text-align: center;
 }
 
+.row-forms p {
+    width: 100%;
+}
 
 .contact-forms {
     width: 100%;
@@ -258,8 +261,9 @@ button:focus {
 }
 
 #about-title {
+    width: 100%;
     font-family: "Bebas Neue", sans-serif;
-    margin-top: 1rem;
+    margin-top: 2rem;
     color: #72716d;
 }
 
