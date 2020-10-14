@@ -41,7 +41,7 @@ hr {
 /* -------------------------Navigation Bar */
 
 .navbar {
-    width: 100%;
+    width: auto;
     background-color: #f1efe4;
     font-family: "Bebas Neue", sans-serif;
     font-size: 30px;
@@ -62,6 +62,19 @@ hr {
 .nav {
     margin-left: auto;
     margin-right: auto;
+}
+
+.dropdown-item {
+    color: #72716d;
+}
+
+.dropdown-item:hover {
+    color: #72716d;    
+}
+
+.dropdown-item:active {
+    color: #72716d;
+    background-color: #f1efe4; 
 }
 
 #nav-dropdown {
@@ -140,7 +153,8 @@ footer {
 }
 
 .subscribe-btn:hover {
-    background-color: #be674d;    
+    background-color: #be674d;  
+    color: #f1efe4;  
 }
 
 #footer-title {
@@ -249,12 +263,12 @@ button:focus {
 
 /* -------------------------Index-Forms */
 
-.row-forms {
+.row-contact {
     margin: 1rem;
     text-align: center;
 }
 
-.row-forms p {
+.row-contact p {
     width: 100%;
 }
 
@@ -436,8 +450,6 @@ button:focus {
     letter-spacing: 2px;
 }
 
-/* -------------------------Modals */
-
 .modal-text {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
@@ -445,6 +457,106 @@ button:focus {
     text-align: center;
     margin: 20px 0 20px 0;
 
+}
+
+/* -------------------------Forms */
+
+.forms {
+    background-image: url('/assets/images/B&M - hero2.jpg');
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.forms-list {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.forms-list li a {
+    width: 100%;
+    height: 100%;
+} 
+
+.forms-index {
+    padding: 20px;
+    background-color:#f1eee5;
+}
+
+.forms-index-btn {
+    margin: 15px 0 15px 0;
+    height: 40px;
+    width: 100%;
+    background-color: #f1efe4;
+    color: #72716d;
+    font-family: "Bebas Neue", sans-serif;
+    vertical-align: middle;
+    font-size: 30px;
+    letter-spacing: 3px;
+    border: 1px solid #72716d;
+}
+
+.btn-text {
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+}
+
+.forms-album-cover {
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #72716d;
+    border-color: #f1efe4;
+}
+
+#form-order-btn {
+    font-size: 45px;
+    border: 2px solid #72716d;
+}
+
+.pre-order-form {
+    padding: 20px;
+    background-color: rgba(241,239,228, 0.9);
+    font-family: "Roboto", sans-serif; 
+    color: #72716d;
+}
+
+form {
+    margin: auto;
+    width: 60%;
+}
+
+label {
+    margin: 10px 0 0 0;
+    font-weight: 600;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    color: #72716d;    
+}
+
+#submit-btn-div {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#submit-btn {
+    padding: 0;
+    width: 30%;
+    border: 1px solid #72716d;
+}
+
+textarea {
+    width: 100%;
 }
 
 /* -------------------------Media Queries */
@@ -481,9 +593,14 @@ button:focus {
     padding: 0.5rem;
 }
 
+
 }
 
 @media screen and (max-width: 425px) {
+  body {
+      margin-top: 60px;
+  }
+  
   .nav {
     display: inline;
   }
@@ -514,12 +631,12 @@ button:focus {
     width: 70%;
     }
 
-.row-forms {
+.row-contact {
     margin-left: 8px;
     margin-right: 8px;
 }
 
-.row-forms p {
+.row-contact p {
     font-size: 1rem;   
 }
 
@@ -591,5 +708,4 @@ iframe {
 
 .card-calendar {
     margin-bottom: 1rem;
-
 }
