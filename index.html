@@ -10,8 +10,7 @@
 </head>
 <body>
     <header>
-<!--navbar is BOOTSTRAP-->
-<!--UPDATE LINK OF NAVIGATION BAR-->
+<!--BOOTSTRAP NAVBAR CODE-->
         <nav class="navbar navbar-expand-md navbar-light navbar-toggler fixed-top">
             <a href="index.html" class="navbar-brand">
                 <img src="assets/images/bossa&morna-logo.JPG" alt="Bossa&Morna Logo">
@@ -40,14 +39,14 @@
                 </ul>
             </div>
             <div class="d-none d-md-block">
-<!--UPDATE CONTACT LINK-->
                 <a href="forms-contact-us.html" >
-                    <button type="button" class="pre-order-btn">
+                    <button type="button" class="general-btn">
                         <strong>Contact Us</strong>
                     </button>
                 </a>
             </div>
         </nav>
+    <!--END BOOTSTRAP NAVBAR CODE-->
     </header>
 
     <section class="container-fluid album-coming">
@@ -57,9 +56,8 @@
                         <h1 id="album-title">"Encontros"</h1>
                         <h2>New Album Coming Soon!</h2>
                         <h3>Reserve yours!</h3>
-<!--UPDATE LINK TO PRE-ORDER PAGE-->
                     <a href="forms-pre-order.html">
-                        <button type="button" class="pre-order-btn">
+                        <button type="button" class="general-btn">
                             <strong>Pre-Order</strong>
                         </button>
                     </a>
@@ -73,9 +71,9 @@
 
     <hr class="section-divider">
     
-    <section class="container-fluid gallery-preview">
+    <section class="container-fluid">
         <div class="row">
-<!--BOOTSTRAP CODE-->
+<!--BOOTSTRAP CAROUSEL CODE-->
             <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -101,6 +99,7 @@
                     </div>                       
                 </div>
             </div>
+<!--END BOOTSTRAP CAROUSEL CODE-->
         </div>
     </section>
     
@@ -115,11 +114,10 @@
             <br>If you are interested in a way to make your event more memorable just follow the link and fill out the form. 
             <br>We will be more than happy to cater your needs!</p>
         </div>
-<!--UPDATE LINKS IN BUTTONS-->
-        <div class="row row-contact" id="row-form-btn">
-            <div class="col-md-6 form-btn">
+        <div class="row row-contact" id="row-contact-btn">
+            <div class="col-md-6 contact-btn">
                 <a href="forms-contact-us.html">
-                    <button type="button" class="pre-order-btn btn-sm">
+                    <button type="button" class="general-btn" id="index-contact-btn">
                         <strong>Contact Us</strong>
                     </button>
                 </a>
@@ -160,8 +158,8 @@
             <div class="col-sm-12 footer-subscribe d-none d-sm-block">
                 <form action="https://formdump.codeinstitute.net/" method="post">
                     <label for="newsletter-email"></label>
-                    <input type="email" placeholder="Email" class="subscribe-input" id="newsletter-email" name="newsletter-email" required>
-                    <input type="submit" value="Subscribe Newsletter" class="subscribe-btn">
+                    <input type="email" placeholder="Email" class="subscribe subscribe-input" id="newsletter-email" name="newsletter-email" required>
+                    <input type="submit" value="Subscribe Newsletter" class="subscribe subscribe-btn">
                 </form>
             </div>    
         </div>

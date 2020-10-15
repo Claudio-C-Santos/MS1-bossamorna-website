@@ -4,11 +4,6 @@ body {
     margin-top: 70px;
 }
 
-hr {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
 .page-title {
     margin: 20px 0 0 0;
     font-size: 5rem;
@@ -32,10 +27,49 @@ hr {
     margin: 0 20px;   
 }
 
-
 .social-media-btn:hover {
     background-color: #be674d;
     color: #f1efe4;
+}
+
+.general-btn {
+    height: 60px;
+    line-height: 0;
+    border-radius: 25px;
+    background-color: #f1efe4;
+    color: #72716d;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.general-btn:hover {
+    background-color: #be674d;  
+    color: #f1efe4;
+}
+
+button:focus {
+    outline: none;
+    background-color: #f1efe4;
+    color: #72716d;
+}
+
+.page-container {
+    padding-top: 20px;
+}
+
+/* -------------------------Section Dividers <hr> */
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section-divider {
+    width: 75%;
+    background-color: #be674d;
+    height: 2px;
 }
 
 /* -------------------------Navigation Bar */
@@ -64,23 +98,6 @@ hr {
     margin-right: auto;
 }
 
-.dropdown-item {
-    color: #72716d;
-}
-
-.dropdown-item:hover {
-    color: #72716d;    
-}
-
-.dropdown-item:active {
-    color: #72716d;
-    background-color: #f1efe4; 
-}
-
-#nav-dropdown {
-    background-color: #f1efe4;    
-}
-
 .nav-link{
     margin: 10px;
     color: #72716d;
@@ -101,10 +118,27 @@ hr {
     font-weight: 700;
 }
 
+.dropdown-item {
+    color: #72716d;
+}
+
+.dropdown-item:hover {
+    color: #72716d;    
+}
+
+.dropdown-item:active {
+    color: #72716d;
+    background-color: #f1efe4; 
+}
+
+#nav-dropdown {
+    background-color: #f1efe4;    
+}
+
+
 /* -------------------------Footer */
 
 footer {
-    height: inherit;
     background-color: #555555;
     text-align: center;
 }
@@ -124,7 +158,7 @@ footer {
 .footer-break {
     width: 60%;
     background-color: #be674d;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 .footer-subscribe {
@@ -132,17 +166,20 @@ footer {
     margin: 12px 0;
 }
 
-.subscribe-btn {
+.subscribe {
     height: 20px;
     line-height: 0;
-    border-radius: 0;
-    border-top-right-radius: 25px; 
-    border-bottom-right-radius: 25px; 
+    border-radius: 0; 
     background-color: #f1efe4;
     color: #72716d;
     padding: 10px 10px 10px 5px;
     border: none;
-    vertical-align: bottom;
+    vertical-align: bottom;   
+}
+
+.subscribe-btn {
+    border-top-right-radius: 25px; 
+    border-bottom-right-radius: 25px; 
 }
 
 .subscribe-btn:hover {
@@ -151,16 +188,8 @@ footer {
 }
 
 .subscribe-input {
-    height: 20px;
-    line-height: 0;
-    border-radius: 0;
     border-top-left-radius: 25px; 
     border-bottom-left-radius: 25px; 
-    background-color: #f1efe4;
-    color: #72716d;
-    padding: 10px 10px 10px 5px;
-    border: none;
-    vertical-align: bottom;    
 }
 
 #footer-title {
@@ -177,16 +206,12 @@ footer {
 }
 
 #subscribe-email {
-    height: 20px;
     border: none;
-    background-color: #f1efe4;
     border-top-left-radius: 25px; 
     border-bottom-left-radius: 25px;
-    padding: 10px 10px 10px 5px;
-    vertical-align: bottom;
 }
 
-/* -------------------------Index-Welcome */
+/* -------------------------Index-New Album section */
 
 .new-album {
     font-family: "Bebas Neue", sans-serif; 
@@ -207,30 +232,6 @@ footer {
     margin-bottom: 50px;    
 }
 
-.pre-order-btn {
-    height: 60px;
-    line-height: 0;
-    border-radius: 25px;
-    background-color: #f1efe4;
-    color: #72716d;
-    padding: 10px 10px 10px 10px;
-    border: none;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-.pre-order-btn:hover {
-    background-color: #be674d;  
-    color: #f1efe4;
-}
-
-button:focus {
-    outline: none;
-    background-color: #f1efe4;
-    color: #72716d;
-}
-
-
 .album-cover {
     width: auto;
     height: auto;
@@ -248,17 +249,11 @@ button:focus {
 }
 
 @-webkit-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 /* -------------------------Index-Gallery */
-
-.section-divider {
-    width: 75%;
-    background-color: #be674d;
-    height: 2px;
-}
 
 .carousel-fade {
     display: block;
@@ -268,6 +263,12 @@ button:focus {
 }
 
 /* -------------------------Index-Contact */
+
+.contact-forms {
+    background-color: #f1efe4;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
 
 .row-contact {
     margin: 1rem;
@@ -280,14 +281,7 @@ button:focus {
     color: #72716d;
 }
 
-.contact-forms {
-    width: 100%;
-    background-color: #f1efe4;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-}
-
-.form-btn {
+.contact-btn {
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
@@ -301,16 +295,11 @@ button:focus {
     color: #72716d;
 }
 
-#row-form-btn {
+#row-contact-btn {
     margin-bottom: 0;
 }
 
 /* -------------------------Band - About Us */
-
-.about-text {
-    margin: 20px 0 20px 0;
-    text-align: justify;
-}
 
 .about-band {
     font-family: "Roboto", sans-serif; 
@@ -318,12 +307,17 @@ button:focus {
     padding-top: 20px;   
 }
 
-.profile {
-    margin-top: 10px;
-}
-
 .row-band {
     margin: 0 30px 30px 30px;
+}
+
+.about-text {
+    margin: 20px 0 20px 0;
+    text-align: justify;
+}
+
+.profile {
+    margin-top: 10px;
 }
 
 .profile-pic {
@@ -341,11 +335,6 @@ button:focus {
 }
 
 .profile-socialmedia {
-    height: inherit;
-    width: 100%;
-}
-
-.profile-socialmedia ul {
     margin-top: 25px;
 }
 
@@ -365,16 +354,9 @@ button:focus {
     text-decoration: none;   
 }
 
-/* -------------------------Gallery */
-
-.gallery {
-    padding-top: 20px;
-}
-
 /* -------------------------Gallery - Videos */
 
 .video {
-    width: 100%;
     text-align: center;
     margin: 40px 0 40px 0;
 }
@@ -382,7 +364,6 @@ button:focus {
 /* -------------------------Gallery - Photos */
 
 .row-photos {
-    width: 100%;
     margin: 0 0 2rem 0;
 }
 
@@ -442,8 +423,18 @@ button:focus {
     color: #f1efe4;
 }
 
+/* -------------------------Modals */
+
 .modal-background {
     background-color: #f1efe4;
+}
+
+.modal-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #72716d;
+    text-align: center;
+    margin: 20px 0 20px 0;
 }
 
 .modal-btn-close {
@@ -456,15 +447,6 @@ button:focus {
     border: none;
     font-size: 1rem;
     letter-spacing: 2px;
-}
-
-.modal-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    color: #72716d;
-    text-align: center;
-    margin: 20px 0 20px 0;
-
 }
 
 /* -------------------------Forms */
@@ -575,6 +557,7 @@ textarea {
 .btn-primary:focus {
     box-shadow: none;
 }
+
 .btn:focus {
     background-color: #72716d;
     border-color: #f1efe4;
@@ -593,6 +576,11 @@ textarea {
     margin: 0px;
     color: #72716d;
     line-height: 30px;
+}
+
+.social-media-btn:hover {
+    background-color: #f1efe4;
+    color: #72716d;
 }
 
 .new-album {
@@ -615,19 +603,24 @@ textarea {
     padding: 0.5rem;
 }
 
-
 }
 
 @media screen and (max-width: 425px) {
-  body {
-      margin-top: 60px;
-  }
-  
-  .nav {
-    display: inline;
-  }
 
-  .btn-sm {
+body {
+      margin-top: 60px;
+}
+  
+.nav {
+    display: inline;
+}
+
+#index-contact-btn {
+    background-color: #be674d;  
+    color: #f1efe4; 
+}
+
+.btn-sm {
     height: 60px;
     line-height: 0;
     border-radius: 25px;
@@ -697,11 +690,11 @@ textarea {
     text-align: center;
 }
 
-.profile-socialmedia ul {
+.profile-socialmedia {
     margin: 0;
 }
 
-.profile-socialmedia ul li {
+.profile-socialmedia li {
     display: inline-block;
 }
 

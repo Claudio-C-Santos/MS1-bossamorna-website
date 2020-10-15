@@ -10,8 +10,7 @@
 </head>
 <body>
     <header>
-<!--navbar is BOOTSTRAP-->
-<!--UPDATE LINK OF NAVIGATION BAR-->
+<!--BOOTSTRAP NAVBAR CODE-->
         <nav class="navbar navbar-expand-md navbar-light navbar-toggler fixed-top">
             <a href="index.html" class="navbar-brand">
                 <img src="assets/images/bossa&morna-logo.JPG" alt="Bossa&Morna Logo">
@@ -40,14 +39,14 @@
                 </ul>
             </div>
             <div class="d-none d-md-block">
-<!--UPDATE CONTACT LINK-->
                 <a href="forms-contact-us.html">
-                    <button type="button" class="pre-order-btn">
+                    <button type="button" class="general-btn">
                         <strong>Contact Us</strong>
                     </button>
                 </a>
             </div>
         </nav>
+<!--END BOOTSTRAP NAVBAR CODE-->
     </header>
         
         <section class="container-fluid forms">
@@ -80,16 +79,16 @@
                     We are available for any type of event, if you want to check our availabilty for a specific date please check our calendar our contact us filling 
                     in the desired date along with a description of your event. We will get back to you as soon as possible!</p>
                     <form class="form-contact" action="https://formdump.codeinstitute.net/" method="post">
-                        <label for="first-name"></label>
-                        <input class="form-input" type="text" id="first-name" placeholder="First Name" name="first-name" required>
-                        <label for="last-name"></label>
-                        <input class="form-input" type="text" id="last-name" placeholder="Last Name" name="last-name" required>
-                        <label for="contact-email"></label>
-                        <input class="form-input" type="email" id="contact-email" placeholder="Email" name="contact-email" required>
+                        <label for="first-name">First Name</label>
+                        <input class="form-input" type="text" id="first-name" name="first-name" required>
+                        <label for="last-name">Last Name</label>
+                        <input class="form-input" type="text" id="last-name" name="last-name" required>
+                        <label for="contact-email">Email</label>
+                        <input class="form-input" type="email" id="contact-email" name="contact-email" required>
                         <label for="contact-date"></label>
                         <input class="form-input" type="date" id="contact-date" name="contact-date" required>
-                        <label for="contact-text"></label>
-                        <textarea name="contact-text" id="contact-text" rows="5" placeholder="Message" required></textarea>
+                        <label for="contact-text">Message</label>
+                        <textarea name="contact-text" id="contact-text" rows="5" required></textarea>
                         <div id="submit-btn-div">
                             <input type="submit" value="Send" class="form-input forms-index-btn btn btn-primary submit-btn">
                         </div>
@@ -131,8 +130,8 @@
             <div class="col-sm-12 footer-subscribe d-none d-sm-block">
                 <form action="https://formdump.codeinstitute.net/" method="post">
                     <label for="newsletter-email"></label>
-                    <input type="email" placeholder="Email" class="subscribe-input" id="newsletter-email" name="newsletter-email" required>
-                    <input type="submit" value="Subscribe Newsletter" class="subscribe-btn">
+                    <input type="email" placeholder="Email" class="subscribe subscribe-input" id="newsletter-email" name="newsletter-email" required>
+                    <input type="submit" value="Subscribe Newsletter" class="subscribe subscribe-btn">
                 </form>
             </div>    
         </div>
