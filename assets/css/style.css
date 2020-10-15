@@ -121,7 +121,6 @@ footer {
     display: inline-block;
 }
 
-
 .footer-break {
     width: 60%;
     background-color: #be674d;
@@ -129,12 +128,8 @@ footer {
 }
 
 .footer-subscribe {
-    margin: 12px 0;
-}
-
-.subscribe-form {
     display: inline-block;
-    margin: 0;
+    margin: 12px 0;
 }
 
 .subscribe-btn {
@@ -143,8 +138,6 @@ footer {
     border-radius: 0;
     border-top-right-radius: 25px; 
     border-bottom-right-radius: 25px; 
-    border-top-left-radius: 25px; 
-    border-bottom-left-radius: 25px;    
     background-color: #f1efe4;
     color: #72716d;
     padding: 10px 10px 10px 5px;
@@ -155,6 +148,19 @@ footer {
 .subscribe-btn:hover {
     background-color: #be674d;  
     color: #f1efe4;  
+}
+
+.subscribe-input {
+    height: 20px;
+    line-height: 0;
+    border-radius: 0;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px; 
+    background-color: #f1efe4;
+    color: #72716d;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    vertical-align: bottom;    
 }
 
 #footer-title {
@@ -392,8 +398,8 @@ button:focus {
     max-width: 18rem;
     margin: auto;
     text-align: center;
-    border: n;
 }
+
 .card-img {
     height: 180px;
 }
@@ -434,11 +440,11 @@ button:focus {
     color: #f1efe4;
 }
 
-.modal-add-calendar {
+.modal-background {
     background-color: #f1efe4;
 }
 
-.add-calendar-btn-close {
+.modal-btn-close {
     height: 30px;
     line-height: 0;
     border-radius: 25px;
@@ -528,7 +534,7 @@ button:focus {
     color: #72716d;
 }
 
-form {
+.form-contact {
     margin: auto;
     width: 60%;
 }
@@ -539,7 +545,7 @@ label {
     text-align: left;
 }
 
-input {
+.form-input {
     width: 100%;
     color: #72716d;    
 }
@@ -693,7 +699,7 @@ textarea {
 }
 
 iframe {
-    height: 200;
+    height: 200px;
     width: 100%;
 }
 
