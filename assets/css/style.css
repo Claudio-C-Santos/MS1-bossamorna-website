@@ -267,7 +267,7 @@ button:focus {
     width: 60%;
 }
 
-/* -------------------------Index-Forms */
+/* -------------------------Index-Contact */
 
 .row-contact {
     margin: 1rem;
@@ -276,6 +276,8 @@ button:focus {
 
 .row-contact p {
     width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #72716d;
 }
 
 .contact-forms {
