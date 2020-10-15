@@ -555,7 +555,7 @@ label {
     text-align: center;
 }
 
-#submit-btn {
+.submit-btn {
     padding: 0;
     width: 30%;
     border: 1px solid #72716d;
@@ -563,6 +563,20 @@ label {
 
 textarea {
     width: 100%;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #f1efe4;
+    border-color: #f1efe4; 
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
+.btn:focus {
+    background-color: #72716d;
+    border-color: #f1efe4;
+    box-shadow: #f1efe4;
 }
 
 /* -------------------------Media Queries */
@@ -714,4 +728,22 @@ iframe {
 
 .card-calendar {
     margin-bottom: 1rem;
+}
+
+.submit-btn {
+    width: 60%;    
+}
+
+#h1-order-text {
+    font-size: 2rem;
+}
+
+#h2-order-text {
+    font-size: 1.5rem;
+}
+
+.submit-btn {
+    font-size: 19px;
+}
+
 }
