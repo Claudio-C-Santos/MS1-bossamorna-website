@@ -463,7 +463,7 @@ footer {
 /* -------------------------Forms */
 
 .forms {
-    background-image: url('/assets/images/B&M - hero2.jpg');
+    background-image: url('../images/B&M - hero2.jpg');
     background-repeat:no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
