@@ -39,7 +39,7 @@ body {
     border-radius: 25px;
     background-color: #f1efe4;
     color: #72716d;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 10px 15px 15px;
     border: none;
     font-size: 20px;
     letter-spacing: 2px;
@@ -49,6 +49,7 @@ body {
 .general-btn:hover {
     background-color: #be674d;  
     color: #f1efe4;
+    text-decoration: none;
 }
 
 button:focus {
@@ -137,6 +138,9 @@ hr {
     background-color: #f1efe4;    
 }
 
+#navbar-contact-btn {
+    line-height: 75px;
+}
 
 /* -------------------------Footer */
 
@@ -262,6 +266,10 @@ footer {
 @-webkit-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
+}
+
+#index-order-btn {
+    text-shadow: none;
 }
 
 /* -------------------------Index-Gallery */
