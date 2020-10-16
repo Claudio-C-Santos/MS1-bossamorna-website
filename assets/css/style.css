@@ -24,7 +24,8 @@ body {
     border-radius: 50%;
     background-color:#f1efe4; 
     color: #72716d;
-    margin: 0 20px;   
+    margin: 0 20px;  
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 }
 
 .social-media-btn:hover {
@@ -42,6 +43,7 @@ body {
     border: none;
     font-size: 20px;
     letter-spacing: 2px;
+    transition: color .30s ease-in-out,background-color .30s ease-in-out,border-color .30s ease-in-out,box-shadow .30s ease-in-out;
 }
 
 .general-btn:hover {
@@ -179,7 +181,8 @@ footer {
 
 .subscribe-btn {
     border-top-right-radius: 25px; 
-    border-bottom-right-radius: 25px; 
+    border-bottom-right-radius: 25px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 }
 
 .subscribe-btn:hover {
@@ -187,9 +190,17 @@ footer {
     color: #f1efe4;  
 }
 
+.subscribe-btn:focus {
+    outline: none;
+}
+
 .subscribe-input {
     border-top-left-radius: 25px; 
     border-bottom-left-radius: 25px; 
+}
+
+.subscribe-input:focus {
+    outline: none;
 }
 
 #footer-title {
@@ -452,7 +463,7 @@ footer {
 /* -------------------------Forms */
 
 .forms {
-    background-image: url('/assets/images/B&M - hero2.jpg');
+    background-image: url('../assets/images/B&M - hero2.jpg');
     background-repeat:no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -487,7 +498,14 @@ footer {
     vertical-align: middle;
     font-size: 30px;
     letter-spacing: 3px;
+    border-radius: 5px;
     border: 1px solid #72716d;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.forms-index-btn:hover {
+    background-color: #72716d;
+    color: #f1efe4;
 }
 
 .btn-text {
@@ -501,10 +519,10 @@ footer {
     width: 100%;
 }
 
-.btn-primary:hover {
+/*.btn-primary:hover {
     background-color: #72716d;
     border-color: #f1efe4;
-}
+}*/
 
 #form-order-btn {
     font-size: 45px;
@@ -549,7 +567,7 @@ textarea {
     width: 100%;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active {
+/*.btn-primary:not(:disabled):not(.disabled):active {
     background-color: #f1efe4;
     border-color: #f1efe4; 
 }
@@ -561,8 +579,7 @@ textarea {
 .btn:focus {
     background-color: #72716d;
     border-color: #f1efe4;
-    box-shadow: #f1efe4;
-}
+}*/
 
 /* -------------------------Media Queries */
 
