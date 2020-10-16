@@ -375,6 +375,10 @@ footer {
 
 /* -------------------------Gallery - Videos */
 
+iframe {
+    border: none;
+}
+
 .video {
     text-align: center;
     margin: 40px 0 40px 0;
