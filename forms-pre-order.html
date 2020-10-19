@@ -84,10 +84,30 @@
                     <input class="form-input" type="email" id="pre-order-email" name="pre-order-email" required>
                     <br>
                     <div id="submit-btn-div">
-                        <input type="submit" value="Pre-Order" class="form-input forms-index-btn submit-btn btn-text">
+                        <input type="submit" value="Pre-Order" class="form-input forms-index-btn submit-btn btn-text" data-toggle="modal" data-target="#pre-order-modal">
                     </div>
                 </form>
             </div>
+<!--BOOTSTRAP MODAL CODE-->          
+            <div class="modal fade" id="pre-order-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-background">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                <img src="assets/images/bossa&morna-logo.JPG" alt="Bossa&Morna Logo">
+                            </h5>
+                        </div>
+                        <div class="modal-text">
+                            Congratulations! You have pre-ordered your "Encontros", you will receive a fresh copy of this album before everyone else.<br>
+                            <br>
+                            Thank you, see you soon!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="modal-btn-close" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </div>
     </section>  
 <!--Footer-->  
