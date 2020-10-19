@@ -513,7 +513,7 @@ iframe {
 .forms-index-btn:hover {
     background-color: #72716d;
     color: #f1efe4;
-    border: none;
+    outline: none;
     text-decoration: none;
 }
 
@@ -562,9 +562,15 @@ label {
 }
 
 .submit-btn {
+    margin: 20px auto;
+    height: 100%;
     padding: 0;
     width: 30%;
     border: 1px solid #72716d;
+}
+
+.submit-btn:focus {
+    outline: none;
 }
 
 textarea {
