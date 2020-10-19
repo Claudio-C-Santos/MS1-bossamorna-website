@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<!--Navigation Bar-->
     <header>
 <!--BOOTSTRAP NAVBAR CODE-->
         <nav class="navbar navbar-expand-md navbar-light navbar-toggler fixed-top">
@@ -21,7 +22,7 @@
             <div class="collapse navbar-collapse" id="nav-dropdown">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a> 
+                        <a class="nav-link active" href="index.html">HOME</a> 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="band.html">BAND</a>
@@ -36,14 +37,18 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="calendar.html">CALENDAR</a>
                     </li>
+                    <hr class="toggle-divider">
+                    <li class="nav-item d-md-none">
+                        <a href="forms-contact-us.html" class="nav-link"><strong>Contact Us</strong></a>
+                    </li>                    
                 </ul>
             </div>
             <div class="d-none d-md-block">
-                <a href="forms-contact-us.html" class="general-btn" id="navbar-contact-btn"><strong>Contact Us</strong></a>
-            </div>
+                <a href="forms-contact-us.html" class="general-btn md-btn-style" id="navbar-contact-btn"><strong>Contact Us</strong></a>
+            </div>  
         </nav>
-<!--END BOOTSTRAP NAVBAR CODE-->
     </header>
+<!--Calendar-->
     <section class="container-fluid page-container">
         <div>
             <h1 class="page-title">Upcoming Events</h1>
@@ -63,7 +68,6 @@
                 </div>
             </div>                        
             <div class="col-sm-4 container-fluid"> 
-<!--BOOTSTRAP CODE ON CARDS-->                       
                 <div class="card card-calendar">
                     <img src="assets/images/locations/Berlin-Philarmonic.jpg" class="card-img" alt="Berlin Philarmonic @ Berlin, Germany">
                     <div class="card-body">
@@ -75,7 +79,6 @@
                 </div>
             </div>
             <div class="col-sm-4 container-fluid"> 
-<!--BOOTSTRAP CODE ON CARDS-->                       
                 <div class="card card-calendar">
                     <img src="assets/images/locations/Pepsi-On-Stage-Brazil.jpg" class="card-img" alt="Pepsi On Stage @ Porto Alegra, Brazil">
                     <div class="card-body">
@@ -109,6 +112,7 @@
         </div>
         <hr class="section-divider">
     </section>
+<!--Footer-->
     <footer class="container-fluid">
         <div class="row">
             <h6 id="footer-title">Bossa & Morna</h6>

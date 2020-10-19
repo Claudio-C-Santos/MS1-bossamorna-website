@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<!--Navigation Bar-->
     <header>
 <!--BOOTSTRAP NAVBAR CODE-->
         <nav class="navbar navbar-expand-md navbar-light navbar-toggler fixed-top">
@@ -27,23 +28,27 @@
                         <a class="nav-link" href="band.html">BAND</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GALLERY</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GALLERY</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="gallery-videos.html">Videos</a>
+                            <a class="dropdown-item active" href="gallery-videos.html">Videos</a>
                             <a class="dropdown-item" href="gallery-photos.html">Photos</a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="calendar.html">CALENDAR</a>
                     </li>
+                    <hr class="toggle-divider">
+                    <li class="nav-item d-md-none">
+                        <a href="forms-contact-us.html" class="nav-link"><strong>Contact Us</strong></a>
+                    </li>                    
                 </ul>
             </div>
             <div class="d-none d-md-block">
-                <a href="forms-contact-us.html" class="general-btn" id="navbar-contact-btn"><strong>Contact Us</strong></a>
-            </div>
+                <a href="forms-contact-us.html" class="general-btn md-btn-style" id="navbar-contact-btn"><strong>Contact Us</strong></a>
+            </div>  
         </nav>
-<!--END BOOTSTRAP NAVBAR CODE-->
     </header>
+<!--Gallery - Videos-->
     <section class="container-fluid page-container">
         <div>
             <h1 class="page-title">Videos</h1>
@@ -60,7 +65,7 @@
         </div>
         <hr class="section-divider">        
     </section>
-
+<!--Footer-->
     <footer class="container-fluid">
         <div class="row">
             <h6 id="footer-title">Bossa & Morna</h6>

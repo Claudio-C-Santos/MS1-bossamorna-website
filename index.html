@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<!--Navigation Bar-->
     <header>
 <!--BOOTSTRAP NAVBAR CODE-->
         <nav class="navbar navbar-expand-md navbar-light navbar-toggler fixed-top">
@@ -36,21 +37,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="calendar.html">CALENDAR</a>
                     </li>
+                    <hr class="toggle-divider">
+                    <li class="nav-item d-md-none">
+                        <a href="forms-contact-us.html" class="nav-link"><strong>Contact Us</strong></a>
+                    </li>                    
                 </ul>
             </div>
             <div class="d-none d-md-block">
-                <a href="forms-contact-us.html" class="general-btn" id="navbar-contact-btn"><strong>Contact Us</strong></a>
-            </div>
+                <a href="forms-contact-us.html" class="general-btn md-btn-style" id="navbar-contact-btn"><strong>Contact Us</strong></a>
+            </div>  
         </nav>
-    <!--END BOOTSTRAP NAVBAR CODE-->
     </header>
+<!--Index-New Album section-->
     <section class="container-fluid album-coming">
         <div class="row">
             <div class="col-sm-12 col-md-6 new-album">
                 <div>
                     <h1 id="album-title">"Encontros"</h1>
                     <h2>New Album Coming Soon!</h2>
-                    <h3>Reserve yours!</h3>
                     <a href="forms-pre-order.html" class="general-btn" id="index-order-btn"><strong>Pre-Order</strong></a>
                 </div>
             </div>
@@ -60,6 +64,7 @@
         </div>
     </section>
     <hr class="section-divider">
+<!--Index-Gallery section-->
     <section class="container-fluid">
         <div class="row">
 <!--BOOTSTRAP CAROUSEL CODE-->
@@ -92,6 +97,7 @@
         </div>
     </section>
     <hr class="section-divider">
+<!--Index-Contact-->
     <section class="container-fluid contact-forms">
         <div class="row row-contact">
             <h1 id="about-title">Want to know more about us?</h1>
@@ -103,10 +109,11 @@
         </div>
         <div class="row row-contact" id="row-contact-btn">
             <div class="col-md-6 contact-btn">
-                <a href="forms-contact-us.html" class="general-btn" id="index-contact-btn"><strong>Contact Us</strong></a>
+                <a href="forms-contact-us.html" class="general-btn md-btn-style"><strong>Contact Us</strong></a>
             </div>
         </div>
     </section>
+<!--Footer-->
     <footer class="container-fluid">
         <div class="row">
             <h6 id="footer-title">Bossa & Morna</h6>

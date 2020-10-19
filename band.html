@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<!--Navigation Bar-->
     <header>
 <!--BOOTSTRAP NAVBAR CODE-->
         <nav class="navbar navbar-expand-md navbar-light navbar-toggler fixed-top">
@@ -21,7 +22,7 @@
             <div class="collapse navbar-collapse" id="nav-dropdown">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a> 
+                        <a class="nav-link active" href="index.html">HOME</a> 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="band.html">BAND</a>
@@ -36,14 +37,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="calendar.html">CALENDAR</a>
                     </li>
+                    <hr class="toggle-divider">
+                    <li class="nav-item d-md-none">
+                        <a href="forms-contact-us.html" class="nav-link"><strong>Contact Us</strong></a>
+                    </li>                    
                 </ul>
             </div>
             <div class="d-none d-md-block">
-                <a href="forms-contact-us.html" class="general-btn" id="navbar-contact-btn"><strong>Contact Us</strong></a>
-            </div>
+                <a href="forms-contact-us.html" class="general-btn md-btn-style" id="navbar-contact-btn"><strong>Contact Us</strong></a>
+            </div>  
         </nav>
-<!--END BOOTSTRAP NAVBAR CODE-->
     </header>
+<!--About Band-->
     <section class="container-fluid about-band">
         <div class="row row-band">
             <div class="col-sm-12">
@@ -63,7 +68,8 @@
                 </p>
             </div>
         </div>
-        <div class="row row-band">        
+        <hr class="section-divider">
+        <div class="row row-band" id="artist-bio">        
             <div class="col-sm-12 profile">
                 <img src="assets/images/pictures/diogo-profile.png" class="profile-pic" alt="Diogo's Profile Picture">
                 <h1 class="profile-name">Diogo Caetano</h1>      
@@ -100,6 +106,7 @@
                     </p>
                 </div>
             </div> 
+            <hr class="section-divider"> 
            <div class="col-sm-12 profile">
                 <img src="assets/images/pictures/iuri-profile.png" class="profile-pic" alt="Iuri's Profile Picture">
                 <h1 class="profile-name">Iuri Oliveira</h1>      
@@ -141,7 +148,8 @@
                     His musical universe is inspired and created through elegance, passion, color and vocabulary with the main purpose of serving the music.
                     </p>
                 </div>
-            </div>                     
+            </div> 
+            <hr class="section-divider">                                 
             <div class="col-sm-12 profile">
                 <img src="assets/images/pictures/ivo-profile.png" class="profile-pic" alt="Ivo's Profile Picture">
                 <h1 class="profile-name">Ivo Dias</h1>      
@@ -180,6 +188,7 @@
             <hr class="section-divider">        
         </div>
     </section>
+<!--Footer-->
     <footer class="container-fluid">
         <div class="row">
             <h6 id="footer-title">Bossa & Morna</h6>
@@ -219,7 +228,6 @@
             </div> 
         </div>
     </footer>
-    
 <!--JavaScript BOOTSTRAP CDN    -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
