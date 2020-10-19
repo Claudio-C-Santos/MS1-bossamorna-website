@@ -425,23 +425,18 @@ iframe {
 }
 
 .add-calendar-btn {
-    background-color: #f1efe4;
-    color: #72716d;
-}
-
-.add-calendar-btn {
     height: 30px;
-    line-height: 0;
     border-radius: 25px;
     background-color: #f1efe4;
     color: #72716d;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
     border: none;
     font-size: 1rem;
     letter-spacing: 2px;
 }
 
 .add-calendar-btn:hover {
+    text-decoration: none;
     background-color: #be674d;  
     color: #f1efe4;
 }
@@ -475,7 +470,7 @@ iframe {
 /* -------------------------Forms */
 
 .forms {
-    background-image: url('../images/B&M - hero2.jpg');
+    background-image: url('../images/B&M-hero2.jpg');
     background-repeat:no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -501,13 +496,13 @@ iframe {
 }
 
 .forms-index-btn {
+    display: block;
     margin: 15px 0 15px 0;
-    height: 40px;
+    height: 60px;
     width: 100%;
     background-color: #f1efe4;
     color: #72716d;
     font-family: "Bebas Neue", sans-serif;
-    vertical-align: middle;
     font-size: 30px;
     letter-spacing: 3px;
     border-radius: 5px;
@@ -518,6 +513,8 @@ iframe {
 .forms-index-btn:hover {
     background-color: #72716d;
     color: #f1efe4;
+    border: none;
+    text-decoration: none;
 }
 
 .btn-text {
@@ -532,7 +529,7 @@ iframe {
 }
 
 #form-order-btn {
-    font-size: 45px;
+    margin-bottom: 20px;
     border: 2px solid #72716d;
 }
 
@@ -586,6 +583,10 @@ textarea {
     margin: 0px;
     color: #72716d;
     line-height: 30px;
+}
+
+#navbar-contact-btn strong {
+    font-size: 90%;
 }
 
 .social-media-btn:hover {
@@ -647,14 +648,14 @@ body {
     color: #f1efe4;
 }
 
-  #album-title {
-      font-size: 40px;
-      padding-bottom: 20px;
-    }
+#album-title {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
 
 .carousel-fade {
     width: 70%;
-    }
+}
 
 .row-contact {
     margin-left: 8px;
