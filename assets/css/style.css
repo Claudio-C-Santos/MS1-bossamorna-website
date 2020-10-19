@@ -332,13 +332,27 @@ footer {
 .about-band {
     font-family: "Roboto", sans-serif; 
     color: #72716d;
-    padding-top: 20px;   
 }
 
 .row-band {
     margin: 0 30px 0 30px;
 }
 
+.row-band ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row-band ul li p {
+    display: inline;
+    color:#72716d
+}
+
+.row-band ul li a:hover {
+    color: #72716d; 
+    text-decoration: none;   
+}
 .about-text {
     margin: 20px 0 0 0;
     text-align: justify;
@@ -359,6 +373,7 @@ footer {
 }
 
 .row-profile {
+    margin: 0;
     width: 100%;
 }
 
@@ -366,21 +381,6 @@ footer {
     margin-top: 25px;
 }
 
-.row-band ul li {
-    list-style: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.row-band ul li p {
-    display: inline;
-    color:#72716d
-}
-
-.row-band ul li a:hover {
-    color: #72716d; 
-    text-decoration: none;   
-}
 
 /* -------------------------Gallery - Videos */
 
