@@ -32,7 +32,7 @@ Below are the user stories related to each of the group os users:
 
 ### Wireframes
 
-- [Home]
+[Home](https://github.com/Claudio-C-Santos/Milestone-Project-1/blob/master/assets/wireframes/home-wireframe.png)
 
 
 <!-- 
