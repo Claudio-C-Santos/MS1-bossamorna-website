@@ -19,8 +19,19 @@ There's also a calendar section where the user is able to see future events wher
 
 The main users of this website will be fans, agents and event organizers. Each of them can use this website as a tool to obtain valuable information about the band and interact with them.
 
+<div align=center>
+
+### <ins>**Desktop View**</ins>
+<img src="assets/gif/desktop-view.gif" width="700">
+
+### <ins>**Mobile View**</ins>
+<img src="assets/gif/mobile-view.gif" >
+
+</div>
+
 ### User stories
-- As a new user that doesn't know anything about the band I want to know what type of music they play by hearing a song or two.
+- As a new user that doesn't know anything about the band, I want to know what type of music they play by hearing a song or two.
+- As a new user that doesn't know anything about the band, I want to know more about the band and its musicians.
 - As a new user that doesn't know anything about the band, I want to have a good idea of the band's image.
 - As a fan, I want to be updated on the upcoming events, so that I can attend.
 - As a fan, I want to be able to easily find links to their social media profiles, so that I can follow their work.
@@ -73,40 +84,90 @@ Then there are two forms, one to pre-order the new album and to contact the band
 
 The color scheme was chosen from the album cover which was provided by the band's designer.
 
-<!-- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
--->
-
 ## Features
 
 Each page of the website has its own features and serves a specific purpose, please find the details below:
-<!--INSERT PRINTSCREENS-->
-- Navbar<br>
-    - Displays in all pages with direct links for each of the other pages. 
-- Footer<br>
-    - Also displayed in every page, gives access to band's social media profiles and allows the user to subscribe to band's newsletter.
-- home<br>
-    - The home page is divided in three sections which are the announcement of the new album and link to pre-order form, carousel with some of pictures included in the gallery and a last section 
-to incentivate the user to reach out to the band.
-- Band page<br>
-    - This page is to give a description of the band along with a brief biography of each musician.
-- Gallery<br>
-    - This section is divided into two pages: videos and pictures of the band performing.
-- Calendar<br>
-    - This page is where upcoming events are announced. 
-- Contact Us/Pre-order<br>
-    - These two pages include a form to contact the band and another one to pre-order the new album.
 
-<!--
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- -->
+- <ins>Navbar</ins><br>
+    - Displays in all pages with direct links for each of the other pages.<br>
+    <br> 
+    <img src="assets/printscreens/navigation-bar.jpg" width="700">
+    <br>
+- <ins>Footer</ins><br>
+    - Also displayed in every page, gives access to band's social media profiles and allows the user to subscribe to band's newsletter.<br>
+    <br>
+    <img src="assets/printscreens/footer.jpg" width="700">
+    <br>
+- <ins>Home</ins><br>
+    - The home page is divided in three sections which are the announcement of the new album and link to pre-order form, carousel with some of pictures included in the gallery and a last section 
+to incentivate the user to reach out to the band.<br>
+    <br>
+    <img src="assets/printscreens/Index.png" width="700">
+    <br>
+- <ins>Band</ins><br>
+    - This page is to give a description of the band along with a brief biography of each musician.<br>
+    <br>
+    <img src="assets/printscreens/band.png" width="700">
+    <br>
+- <ins>Gallery</ins><br>
+    - This section is divided into two pages: videos and pictures of the band performing.<br>
+    <br>
+    <img src="assets/printscreens/Gallery-Videos.png" width="700">
+    <br>
+    <img src="assets/printscreens/Gallery-Photos.png" width="700">
+    <br>
+- <ins>Calendar</ins><br>
+    - This page is where upcoming events are announced.<br>
+    <br>
+    <img src="assets/printscreens/calendar.png" width="700">
+    <br>
+- <ins>Contact Us/Pre-order</ins><br>
+    - These two pages include a form to contact the band and another one to pre-order the new album.<br>
+    <br>
+    <img src="assets/printscreens/contact-us.jpg" width="700">
+    <br>
+    <img src="assets/printscreens/pre-order.jpg" width="700">
+    <br>
 
 ### Existing Features
+
+- Feature 1 
+    - Allows a new user that doesn't know anything about the band to immediately see the available content by looking at the navigation bar.
+
+- Feature 2 
+    - Allows a new user that doesn't know anything about the band to know more about the band and its musicians by navigating to the band page.<br>
+    <br>
+<img src="assets/gif/band-walkthrough.gif" width="700">
+
+- Feature 3
+    - Allows a new user that doesn't know anything about the band by navigating to the Gallery in order to have a good idea of the band's image.<br>
+    <br>
+<img src="assets/gif/gallery-walkthrough.gif" width="700">
+
+- Feature 4
+    - Allows users to be updated on the upcoming events by navigating to the Calendar. The event can be added to the fans calendar by clicking the "Add to calendar" button.<br>
+    <br>
+<img src="assets/gif/calendar-walkthrough.gif" width="700">
+
+- Feature 5
+    - Allows user to easily find links to their social media profiles by scrolling down to the pages footer.<br>
+    <br>
+<img src="assets/printscreens/footer.jpg" width="700">
+
+- Feature 6
+    - Allows user to pre-order the band's new album by submitting their personal details and email address.<br>
+    <br>
+<img src="assets/gif/pre-order-walkthrough.gif" width="700">
+
+- Feature 6
+    - Allows user to have access to the band's newsletter byt submitting their email address in the form at the page's footer.<br>
+    <br>
+<img src="assets/gif/newsletter-walkthrough.gif" width="700">
+
+- Feature 7
+    - Allows user to contact the by navigating to the Contact Us form. This form allows to choose a date in case of wanting to book an event<br>
+    <br>
+<img src="assets/gif/contact-us-walkthrough.gif" width="700">
 
 <!--
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -116,9 +177,6 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 -->
-
-### Features Left to Implement
-
 
 ## Technologies Used
 
