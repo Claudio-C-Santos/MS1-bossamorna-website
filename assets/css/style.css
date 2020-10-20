@@ -239,6 +239,7 @@ footer {
     color: #72716d;
     text-shadow: 10px 20px 5px #f1efe4;
 }
+
 .new-album h1 {
     width: 100%;
     letter-spacing: 5px;
@@ -259,8 +260,10 @@ footer {
 }
 
 .fadeIn {
-    animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
 } 
 
 @keyframes fadeIn {
@@ -330,6 +333,12 @@ footer {
 /* -------------------------Band - About Us */
 
 .about-band {
+    font-family: "Roboto", sans-serif; 
+    color: #72716d;
+    padding-top: 30px;
+}
+
+.about-artist {
     font-family: "Roboto", sans-serif; 
     color: #72716d;
 }
@@ -587,6 +596,12 @@ textarea {
     width: 100%;
 }
 
+#payment-method {
+    text-decoration: underline;
+    font-weight: 600;
+    margin: 1rem 0 0 0;
+}
+
 /* -------------------------Media Queries */
 
 @media screen and (min-width: 425px) and (max-width: 768px){
@@ -634,7 +649,6 @@ textarea {
     background-color: #be674d;  
     color: #f1efe4; 
 }
-
 
 }
 
@@ -698,7 +712,7 @@ body {
 }
 
 .row-band h1 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .row-band h2 {
@@ -725,6 +739,7 @@ body {
 
 .profile-socialmedia {
     margin: 0;
+    padding: 0;
 }
 
 .profile-socialmedia li {

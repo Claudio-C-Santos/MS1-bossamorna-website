@@ -1,22 +1,39 @@
 # Bossa&Morna Website
 
-Bossa&Morna is a Portuguese band which combines portuguese, african and brazilian music.
-This website's goal is to present the band and its elements and what the band is all about, for that there's a gallery section with photos and videos. Since the band is preparing to launch a new album, this website allows the user to provide its email in order to receive an alert once the album is published. 
-There's a calendar section where the user is able to see future events where the band will play. A form is also available in order to contact the band either booking their services or any other topic. 
+Bossa&Morna is a Portuguese band which combines portuguese, african and brazilian music. It is formed by three musicians singing, playing guitar and "cavaquinho" along with characteristic percussions from these three countries.
+This website's goal is to present the band's history and elements along with some of their performances. Users can access to videos and photos displayed in the Gallery and enjoy what this amazing band has to offer.
+The website includes a calendar where the user can see any upcoming events where the band will be performing. They can add to their calendar a specific event so that they don't forget.
+Since the band is preparing to launch a new album, this website allows the user to provide its email address in order to be the first group of fans to receive a copy once the album is ready. 
+There's also a calendar section where the user is able to see future events where the band perform. For any other topic, for example to book an event, the band can be contacted via an open form.
+<br>
+<br>This website's goals are:
+* Increase the band's fan base.
+* Create more proximity with the band's fans.
+* Try to increase the revenue from sellinf their new album by giving the fans an opportunity to pre-order the new album.
+* Give the opportunity for any agent of event organizer to get a good idea of their image as a band and to know their work.
+* Make it easier for any agent or event organizer to contact the band and try to book an event.
+<br>
+<br>A live demo of website can be found [here](https://claudio-c-santos.github.io/Milestone-Project-1/). It is compatible from small to big screen sizes. 
  
 ## UX
 
-Users:
-- Fans
-- Agent
-- Event Organizer
+The main users of this website will be fans, agents and event organizers. Each of them can use this website as a tool to obtain valuable information about the band and interact with them.
 
-As a fan, I want to be updated on the upcoming events, so that I can attend.
-As a fan, I want to be able to easily find links to their social media profiles, so that I can follow their work.
-As a fan, I want to play their songs on the website, so that I can enjoy it.
-As an agent, I want to know what type of music the band plays, so that I can decide if I should approach them to try represent them.
-As an agent, I want to contact the band, so that I can offer my services to represent them.
-As an event organizer, I want to contact the band, so that I can book their services for a specific day.
+Below are the user stories related to each of the group os users:
+- As a user that doesn't know anything about the band I want to know what type of music they play by hearing a song or two.
+- As a user that doesn't know anything about the band, I want to have a good idea of the band's image.
+- As a fan, I want to be updated on the upcoming events, so that I can attend.
+- As a fan, I want to be able to easily find links to their social media profiles, so that I can follow their work.
+- As a fan, I want to play their songs on the website, so that I can enjoy it.
+- As an agent, I want to know what type of music the band plays, so that I can decide if I should approach them to try represent them.
+- As an agent, I want to contact the band, so that I can offer my services to represent them.
+- As an event organizer, I want to contact the band, so that I can book their services for a specific day.
+
+
+### Wireframes
+
+- [Home]
+
 
 <!-- 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -28,6 +45,24 @@ This section is also where you would share links to any wireframes, mockups, dia
 -->
 
 ## Features
+
+Each page of the website has its own features and serves a specific purpose, please find the details below:
+<!--INSERT PRINTSCREENS-->
+- Navbar<br>
+    - Displays in all pages with direct links for each of the other pages. 
+- Footer<br>
+    - Also displayed in every page, gives access to band's social media profiles and allows the user to subscribe to band's newsletter.
+- Index<br>
+    - The index is divided in three sections which are the announcement of the new album and link to pre-order form, carousel with some of pictures included in the gallery and a last section 
+to incentivate the user to reach out to the band.
+- Band page<br>
+    - This page is to give a description of the band along with a brief biography of each musician.
+- Gallery<br>
+    - This section is divided into two pages: videos and pictures of the band performing.
+- Calendar<br>
+    - This page is where upcoming events are announced. 
+- Contact Us/Pre-order<br>
+    - These two pages include a form to contact the band and another one to pre-order the new album.
 
 <!--
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
