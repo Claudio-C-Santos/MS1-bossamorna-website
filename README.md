@@ -19,9 +19,9 @@ There's also a calendar section where the user is able to see future events wher
 
 The main users of this website will be fans, agents and event organizers. Each of them can use this website as a tool to obtain valuable information about the band and interact with them.
 
-Below are the user stories related to each of the group os users:
-- As a user that doesn't know anything about the band I want to know what type of music they play by hearing a song or two.
-- As a user that doesn't know anything about the band, I want to have a good idea of the band's image.
+### User stories
+- As a new user that doesn't know anything about the band I want to know what type of music they play by hearing a song or two.
+- As a new user that doesn't know anything about the band, I want to have a good idea of the band's image.
 - As a fan, I want to be updated on the upcoming events, so that I can attend.
 - As a fan, I want to be able to easily find links to their social media profiles, so that I can follow their work.
 - As a fan, I want to play their songs on the website, so that I can enjoy it.
@@ -29,11 +29,49 @@ Below are the user stories related to each of the group os users:
 - As an agent, I want to contact the band, so that I can offer my services to represent them.
 - As an event organizer, I want to contact the band, so that I can book their services for a specific day.
 
+### Strategy
+The goal of this website's design is to simplify the user experience and not make him waste too much time looking for what he needs and even find additional information that wasn't accounted for but ends up being useful.
+
+### Scope
+The information is displayed thinking about the three main users of this website. Everything is organized in order to make it fluid for everyone giving them an oportunity to perform the desired task and receive additonal and useful information
+
+### Structure
+The structure was thought to be fluid. When the user enters the website immediately has an overview of all the sections available going from home to a way to reaching out to the band.
+On the home page the first that is shown is the fact that a new album will be released and that a pre-order can be submitted with a button that links to the related page.
+Then there's a page about the band so that the user can have more insight on what the band is all about and a small biography on each of the musicians.
+Gallery is divided in videos and pictures.
+Then there are two forms, one to pre-order the new album and to contact the band. These two pages are linked by a side area with links between both of them.
 
 ### Wireframes
 
-[Home](https://github.com/Claudio-C-Santos/Milestone-Project-1/blob/master/assets/wireframes/home-wireframe.png)
+<div align=center>
 
+### <ins>**Home**</ins>
+<img src="assets/wireframes/home-wireframe.png" width="700">
+
+#### <ins>**Band**</ins>
+<img src="assets/wireframes/band-wireframe.png" width="700">
+
+#### <ins>**Gallery-Videos**</ins>
+<img src="assets/wireframes/gallery-videos-wireframe.png" width="700">
+
+#### <ins>**Gallery-Photos**</ins>
+<img src="assets/wireframes/gallery-photos-wireframe.png" width="700">
+
+#### <ins>**Calendar**</ins>
+<img src="assets/wireframes/calendar-wireframe.png" width="700">
+
+#### <ins>**Pre-Order**</ins>
+<img src="assets/wireframes/pre-order-wireframe.png" width="700">
+
+#### <ins>**Contact Us**</ins>
+<img src="assets/wireframes/contact-us-wireframe.png" width="700">
+
+</div>
+
+### Surface
+
+The color scheme was chosen from the album cover which was provided by the band's designer.
 
 <!-- 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -52,8 +90,8 @@ Each page of the website has its own features and serves a specific purpose, ple
     - Displays in all pages with direct links for each of the other pages. 
 - Footer<br>
     - Also displayed in every page, gives access to band's social media profiles and allows the user to subscribe to band's newsletter.
-- Index<br>
-    - The index is divided in three sections which are the announcement of the new album and link to pre-order form, carousel with some of pictures included in the gallery and a last section 
+- home<br>
+    - The home page is divided in three sections which are the announcement of the new album and link to pre-order form, carousel with some of pictures included in the gallery and a last section 
 to incentivate the user to reach out to the band.
 - Band page<br>
     - This page is to give a description of the band along with a brief biography of each musician.

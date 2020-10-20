@@ -487,6 +487,15 @@ iframe {
 
 /* -------------------------Forms */
 
+label {
+    margin: 10px 0 0 0;
+    font-weight: 600;
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+}
 
 .forms {
     background-image: url('../images/B&M-hero2.jpg');
@@ -547,11 +556,6 @@ iframe {
     width: 100%;
 }
 
-#form-order-btn {
-    margin-bottom: 20px;
-    border: 2px solid #72716d;
-}
-
 .pre-order-form {
     padding: 20px;
     background-color: rgba(241,239,228, 0.9);
@@ -564,20 +568,9 @@ iframe {
     width: 60%;
 }
 
-label {
-    margin: 10px 0 0 0;
-    font-weight: 600;
-    text-align: left;
-}
-
 .form-input {
     width: 100%;
     color: #72716d;    
-}
-
-#submit-btn-div {
-    vertical-align: middle;
-    text-align: center;
 }
 
 .submit-btn {
@@ -592,8 +585,14 @@ label {
     outline: none;
 }
 
-textarea {
-    width: 100%;
+#form-order-btn {
+    margin-bottom: 20px;
+    border: 2px solid #72716d;
+}
+
+#submit-btn-div {
+    vertical-align: middle;
+    text-align: center;
 }
 
 #payment-method {
@@ -606,6 +605,10 @@ textarea {
 
 @media screen and (min-width: 425px) and (max-width: 768px){
 
+body {
+    margin-top: 65px;
+}
+
 .navbar {
     font-size: 18px;
 }
@@ -614,10 +617,6 @@ textarea {
     margin: 0px;
     color: #72716d;
     line-height: 30px;
-}
-
-#navbar-contact-btn strong {
-    font-size: 90%;
 }
 
 .social-media-btn:hover {
@@ -637,10 +636,6 @@ textarea {
     font-size: 15px;    
 }
 
-#album-title {
-    font-size: 50px;
-}
-
 .gallery-photos {
     padding: 0.5rem;
 }
@@ -648,6 +643,15 @@ textarea {
 .md-btn-style {
     background-color: #be674d;  
     color: #f1efe4; 
+    font-size: 90%;
+}
+
+.btn-text {
+    font-size: 15px;
+}
+
+#album-title {
+    font-size: 50px;
 }
 
 }
@@ -684,11 +688,6 @@ body {
     color: #f1efe4;
 }
 
-#album-title {
-    font-size: 40px;
-    padding-bottom: 20px;
-}
-
 .carousel-fade {
     width: 70%;
 }
@@ -700,11 +699,6 @@ body {
 
 .row-contact p {
     font-size: 1rem;   
-}
-
-#about-title {
-    font-size: 1.6rem;
-    margin-bottom: 0;
 }
 
 .row-band {
@@ -774,7 +768,18 @@ iframe {
 }
 
 .submit-btn {
-    width: 60%;    
+    width: 60%;
+    font-size: 19px;    
+}
+
+#album-title {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#about-title {
+    font-size: 1.6rem;
+    margin-bottom: 0;
 }
 
 #h1-order-text {
@@ -783,10 +788,6 @@ iframe {
 
 #h2-order-text {
     font-size: 1.5rem;
-}
-
-.submit-btn {
-    font-size: 19px;
 }
 
 }
