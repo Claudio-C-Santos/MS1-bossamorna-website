@@ -19,15 +19,15 @@ There's also a calendar section where the user is able to see future events wher
 
 The main users of this website will be fans, agents and event organizers. Each of them can use this website as a tool to obtain valuable information about the band and interact with them.
 
-<div align=center>
 
-### <ins>**Desktop View**</ins>
+- <ins>Desktop View</ins><br>
+<br>
 <img src="assets/gif/desktop-view.gif" width="700">
 
-### <ins>**Mobile View**</ins>
+- <ins>Mobile View</ins><br>
+<br>
 <img src="assets/gif/mobile-view.gif" >
 
-</div>
 
 ### User stories
 - As a new user that doesn't know anything about the band, I want to know what type of music they play by hearing a song or two.
@@ -55,30 +55,34 @@ Then there are two forms, one to pre-order the new album and to contact the band
 
 ### Wireframes
 
-<div align=center>
-
-### <ins>**Home**</ins>
+- <ins>Home</ins><br>
+<br>
 <img src="assets/wireframes/home-wireframe.png" width="700">
 
-#### <ins>**Band**</ins>
+- <ins>Band</ins><br>
+<br>
 <img src="assets/wireframes/band-wireframe.png" width="700">
 
-#### <ins>**Gallery-Videos**</ins>
+- <ins>Gallery Videos</ins><br>
+<br>
 <img src="assets/wireframes/gallery-videos-wireframe.png" width="700">
 
-#### <ins>**Gallery-Photos**</ins>
+- <ins>Gallery Photos</ins><br>
+<br>
 <img src="assets/wireframes/gallery-photos-wireframe.png" width="700">
 
-#### <ins>**Calendar**</ins>
+- <ins>Calendar</ins><br>
+<br>
 <img src="assets/wireframes/calendar-wireframe.png" width="700">
 
-#### <ins>**Pre-Order**</ins>
+- <ins>Pre-Order Form</ins><br>
+<br>
 <img src="assets/wireframes/pre-order-wireframe.png" width="700">
 
-#### <ins>**Contact Us**</ins>
+- <ins>Contact Us Form</ins><br>
+<br>
 <img src="assets/wireframes/contact-us-wireframe.png" width="700">
 
-</div>
 
 ### Surface
 
@@ -92,79 +96,78 @@ Each page of the website has its own features and serves a specific purpose, ple
     - Displays in all pages with direct links for each of the other pages.<br>
     <br> 
     <img src="assets/printscreens/navigation-bar.jpg" width="700">
-    <br>
+
 - <ins>Footer</ins><br>
     - Also displayed in every page, gives access to band's social media profiles and allows the user to subscribe to band's newsletter.<br>
     <br>
     <img src="assets/printscreens/footer.jpg" width="700">
-    <br>
+
 - <ins>Home</ins><br>
     - The home page is divided in three sections which are the announcement of the new album and link to pre-order form, carousel with some of pictures included in the gallery and a last section 
 to incentivate the user to reach out to the band.<br>
     <br>
     <img src="assets/printscreens/Index.png" width="700">
-    <br>
+
 - <ins>Band</ins><br>
     - This page is to give a description of the band along with a brief biography of each musician.<br>
     <br>
     <img src="assets/printscreens/band.png" width="700">
-    <br>
+
 - <ins>Gallery</ins><br>
     - This section is divided into two pages: videos and pictures of the band performing.<br>
     <br>
     <img src="assets/printscreens/gallery-videos.png" width="700">
     <br>
     <img src="assets/printscreens/gallery-photos.png" width="700">
-    <br>
+
 - <ins>Calendar</ins><br>
     - This page is where upcoming events are announced.<br>
     <br>
     <img src="assets/printscreens/calendar.png" width="700">
-    <br>
+
 - <ins>Contact Us/Pre-order</ins><br>
     - These two pages include a form to contact the band and another one to pre-order the new album.<br>
     <br>
     <img src="assets/printscreens/contact-us.jpg" width="700">
     <br>
     <img src="assets/printscreens/pre-order.jpg" width="700">
-    <br>
 
 ### Existing Features
 
-- Feature 1 
+- <ins>Feature 1</ins> 
     - Allows a new user that doesn't know anything about the band to immediately see the available content by looking at the navigation bar.
 
-- Feature 2 
+- <ins>Feature 2</ins>
     - Allows a new user that doesn't know anything about the band to know more about the band and its musicians by navigating to the band page.<br>
     <br>
 <img src="assets/gif/band-walkthrough.gif" width="700">
 
-- Feature 3
+- <ins>Feature 3</ins>
     - Allows a new user that doesn't know anything about the band by navigating to the Gallery in order to have a good idea of the band's image.<br>
     <br>
 <img src="assets/gif/gallery-walkthrough.gif" width="700">
 
-- Feature 4
+- <ins>Feature 4</ins>
     - Allows users to be updated on the upcoming events by navigating to the Calendar. The event can be added to the fans calendar by clicking the "Add to calendar" button.<br>
     <br>
 <img src="assets/gif/calendar-walkthrough.gif" width="700">
 
-- Feature 5
+- <ins>Feature 5</ins>
     - Allows user to easily find links to their social media profiles by scrolling down to the pages footer.<br>
     <br>
 <img src="assets/printscreens/footer.jpg" width="700">
 
-- Feature 6
+- <ins>Feature 6</ins>
     - Allows user to pre-order the band's new album by submitting their personal details and email address.<br>
     <br>
 <img src="assets/gif/pre-order-walkthrough.gif" width="700">
 
-- Feature 6
+- <ins>Feature 7</ins>
     - Allows user to have access to the band's newsletter byt submitting their email address in the form at the page's footer.<br>
     <br>
 <img src="assets/gif/newsletter-walkthrough.gif" width="700">
 
-- Feature 7
+- <ins>Feature 8</ins>
     - Allows user to contact the by navigating to the Contact Us form. This form allows to choose a date in case of wanting to book an event<br>
     <br>
 <img src="assets/gif/contact-us-walkthrough.gif" width="700">
