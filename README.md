@@ -112,9 +112,9 @@ to incentivate the user to reach out to the band.<br>
 - <ins>Gallery</ins><br>
     - This section is divided into two pages: videos and pictures of the band performing.<br>
     <br>
-    <img src="assets/printscreens/Gallery-Videos.png" width="700">
+    <img src="assets/printscreens/gallery-videos.png" width="700">
     <br>
-    <img src="assets/printscreens/Gallery-Photos.png" width="700">
+    <img src="assets/printscreens/gallery-photos.png" width="700">
     <br>
 - <ins>Calendar</ins><br>
     - This page is where upcoming events are announced.<br>
