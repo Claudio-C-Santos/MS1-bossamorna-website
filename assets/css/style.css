@@ -288,6 +288,18 @@ footer {
 
 /* -------------------------Index-Gallery section */
 
+#index-gallery-title { 
+    font-family: "Bebas Neue", sans-serif; 
+    text-align: center;
+    color: #72716d;
+    text-shadow: 10px 20px 5px #f1efe4;
+    width: 100%;
+    letter-spacing: 5px;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
 .carousel-fade {
     display: block;
     margin-left: auto;
