@@ -14,6 +14,13 @@ body {
     text-shadow: 10px 20px 5px #f1efe4;
 }
 
+.page-text {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #72716d;
+    text-align: center;
+}
+
 .social-media-btn {
     height: 32px;
     width: 32px;
@@ -289,14 +296,21 @@ footer {
 /* -------------------------Index-Gallery section */
 
 .image-carousel {
-    background-image: url('../images/B&M-hero2.jpg');
+    padding: 0;
+    background-image: url('../images/carousel-background.jpg'); 
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    position: relative; 
 }
 
 .carousel-fade {
     display: block;
     margin: 15px auto;
     width: 50%;
-    border: 10px inset #f1eee5;
+    border: 10px inset #be674d;
 }
 
 
@@ -312,6 +326,11 @@ footer {
     font-size: 75px;
 }
 
+#carousel-opaque {
+    width: 100%;
+    background-color: rgba(241,239,228, 0.9); 
+}
+
 /* -------------------------Index-Contact */
 
 .contact-forms {
@@ -323,12 +342,6 @@ footer {
 .row-contact {
     margin: 1rem;
     text-align: center;
-}
-
-.row-contact p {
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-    color: #72716d;
 }
 
 .contact-btn {
@@ -577,7 +590,7 @@ textarea {
 
 .pre-order-form {
     padding: 20px;
-    background-color: rgba(241,239,228, 0.9);
+    background-color: rgba(241,239,228, 0.9);    
     font-family: "Roboto", sans-serif; 
     color: #72716d;
 }
