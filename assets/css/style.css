@@ -288,23 +288,28 @@ footer {
 
 /* -------------------------Index-Gallery section */
 
+.image-carousel {
+    background-image: url('../images/B&M-hero2.jpg');
+}
+
+.carousel-fade {
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    border: 10px inset #f1eee5;
+}
+
+
 #index-gallery-title { 
+    margin: 0;
+    margin-top: 15px;
     font-family: "Bebas Neue", sans-serif; 
     text-align: center;
     color: #72716d;
     text-shadow: 10px 20px 5px #f1efe4;
     width: 100%;
     letter-spacing: 5px;
-    font-size: 100px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-.carousel-fade {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    font-size: 75px;
 }
 
 /* -------------------------Index-Contact */
@@ -664,6 +669,10 @@ body {
     font-size: 15px;
 }
 
+.carousel-fade {
+    width: 70%;
+}
+
 #album-title {
     font-size: 50px;
 }
@@ -713,7 +722,7 @@ body {
 }
 
 .carousel-fade {
-    width: 70%;
+    width: 80%;
 }
 
 .row-contact {
