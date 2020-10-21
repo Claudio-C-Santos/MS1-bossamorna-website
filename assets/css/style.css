@@ -191,12 +191,14 @@ footer {
 .subscribe-btn {
     border-top-right-radius: 25px; 
     border-bottom-right-radius: 25px;
+    color: #f1efe4;
+    background-color: #be674d;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 }
 
 .subscribe-btn:hover {
-    background-color: #be674d;  
-    color: #f1efe4;  
+    background-color: #f1efe4;
+    color: #72716d;
 }
 
 .subscribe-btn:focus {
