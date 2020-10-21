@@ -5,15 +5,15 @@ This website's goal is to present the band's history and elements along with som
 The website includes a calendar where the user can see any upcoming events where the band will be performing. They can add to their calendar a specific event so that they don't forget.
 Since the band is preparing to launch a new album, this website allows the user to provide its email address in order to be the first group of fans to receive a copy once the album is ready. 
 There's also a calendar section where the user is able to see future events where the band perform. For any other topic, for example to book an event, the band can be contacted via an open form.
-<br>
-<br>This website's goals are:
+
+This website's goals are:
 * Increase the band's fan base.
 * Create more proximity with the band's fans.
 * Try to increase the revenue from sellinf their new album by giving the fans an opportunity to pre-order the new album.
 * Give the opportunity for any agent of event organizer to get a good idea of their image as a band and to know their work.
 * Make it easier for any agent or event organizer to contact the band and try to book an event.
-<br>
-<br>A live demo of website can be found [here](https://claudio-c-santos.github.io/Milestone-Project-1/). It is compatible from small to big screen sizes. 
+
+A live demo of website can be found [here](https://claudio-c-santos.github.io/Milestone-Project-1/). It is compatible from small to big screen sizes. 
  
 ## UX
 
@@ -26,7 +26,7 @@ The main users of this website will be fans, agents and event organizers. Each o
 
 - <ins>Mobile View</ins><br>
 <br>
-<img src="assets/gif/mobile-view.gif" >
+<img src="assets/gif/mobile-view.gif">
 
 
 ### User stories
@@ -88,49 +88,82 @@ Then there are two forms, one to pre-order the new album and to contact the band
 
 The color scheme was chosen from the album cover which was provided by the band's designer.
 
-## Features
+## Features 
 
 Each page of the website has its own features and serves a specific purpose, please find the details below:
 
-- <ins>Navbar</ins><br>
-    - Displays in all pages with direct links for each of the other pages.<br>
-    <br> 
-    <img src="assets/printscreens/navigation-bar.jpg" width="700">
+- <ins>Navigation Bar</ins><br>
+    - Displays in all pages with direct links for each of the other pages. It includes a conventionally placed logo on the left and a Contact Us button which highlights when hovered.<br>
+    On small devices the links and Contact Us button collapsee into a toggle button. The links are then displayed horizontally. On both small and medium screens the buttons display the same style has when hovered in bigger screens.<br>
+    <br>
+        - <ins>Desktop View</ins><br> 
+    <br>
+    <img src="assets/printscreens/navigation-bar.jpg" width="900"><br>
+    <br>
+        - <ins>Mobile View</ins><br>
+    <br>
+    <img src="assets/gif/navbar-sm-walkthrough.gif" width="300">
 
 - <ins>Footer</ins><br>
     - Also displayed in every page, gives access to band's social media profiles and allows the user to subscribe to band's newsletter.<br>
+    This section doesn't have significant changes when in small screens besides the fact that the Newsletter Subscription button displays below the input area instead of on the left.<br>
     <br>
     <img src="assets/printscreens/footer.jpg" width="700">
 
 - <ins>Home</ins><br>
     - The home page is divided in three sections which are the announcement of the new album and link to pre-order form, carousel with some of pictures included in the gallery and a last section 
-to incentivate the user to reach out to the band.<br>
+to incentivate the user to reach out to the band. The first section has the goal of calling for the users attention that the band has a new album coming out using a minimalist layout.<br>
+    On small screens this section is organized horizontally.<br>
     <br>
-    <img src="assets/printscreens/Index.png" width="700">
+        - <ins>Desktop View</ins><br> 
+    <br>
+    <img src="assets/printscreens/Index.png" width="700"><br>
+    <br>
+        - <ins>Mobile View</ins><br>
+    <br>
+    <img src="assets/gif/mobile-view.gif">
 
 - <ins>Band</ins><br>
-    - This page is to give a description of the band along with a brief biography of each musician.<br>
+    - This page starts by giving a insight on how the band started and where they get their inspiration to create their music. This gives a good idea to the user on what to expect.<br>
+    Then there's three section, one for each musician. In each section there's a profile picture, links to theri personal social media profiles along with a short biography and musical background.<br>
+    This page's layout doesn't change in medium or small screens.<br>
     <br>
     <img src="assets/printscreens/band.png" width="700">
 
 - <ins>Gallery</ins><br>
-    - This section is divided into two pages: videos and pictures of the band performing.<br>
+    - This section is divided into two pages: videos and pictures of the band performing. The videos are hosted by YouTube from where the embed iFrame code was sourced. The pictures were provided by the band itself.<br>
+    These pages' layouts don't change in medium or small screens.<br>
     <br>
     <img src="assets/printscreens/gallery-videos.png" width="700">
     <br>
     <img src="assets/printscreens/gallery-photos.png" width="700">
 
 - <ins>Calendar</ins><br>
-    - This page is where upcoming events are announced.<br>
+    - This page is where upcoming events are announced. Displaying a card per event, the user can quickly see which venue and its location, date and add it to the calendar by clicking the button in the card.<br>
+    This page's layout doesn't change in medium or small screens.<br>
     <br>
     <img src="assets/printscreens/calendar.png" width="700">
 
 - <ins>Contact Us/Pre-order</ins><br>
-    - These two pages include a form to contact the band and another one to pre-order the new album.<br>
+    - These two pages include a form to contact the band and another one to pre-order the new album. On the left of both these pages there's a column with the album's cover on top of two button that link to both forms. Both forms have the same layout however serve differente purposes.<br>
+    The Contact Us form page allows the user to enter its first and last name along with their email and message, these details are mandatory. In case that the user is an event organizer, there's an input for date in order to check the band's availability.<br>
+    In order not to disrupt the user's experience, in small screens the left column (where album cover and buttons are displayed) is removed.<br>
     <br>
-    <img src="assets/printscreens/contact-us.jpg" width="700">
+        - <ins>Contact-Us Desktop View</ins><br> 
     <br>
-    <img src="assets/printscreens/pre-order.jpg" width="700">
+    <img src="assets/printscreens/contact-us.jpg" width="700"><br>
+    <br>
+        - <ins>Contact-Us Mobile View</ins><br>
+    <br>
+    <img src="assets/printscreens/contact-us-mobile.png" width="300"><br>
+    <br>
+        - <ins>Pre-Order Desktop View</ins><br> 
+    <br>
+    <img src="assets/printscreens/pre-order.jpg" width="700"><br>
+    <br>
+        - <ins>Pre-Order Mobile View</ins><br>
+    <br>
+    <img src="assets/printscreens/pre-order-mobile.png" width="300">
 
 ### Existing Features
 
@@ -154,8 +187,6 @@ to incentivate the user to reach out to the band.<br>
 
 - <ins>Feature 5</ins>
     - Allows user to easily find links to their social media profiles by scrolling down to the pages footer.<br>
-    <br>
-<img src="assets/printscreens/footer.jpg" width="700">
 
 - <ins>Feature 6</ins>
     - Allows user to pre-order the band's new album by submitting their personal details and email address.<br>
@@ -172,47 +203,30 @@ to incentivate the user to reach out to the band.<br>
     <br>
 <img src="assets/gif/contact-us-walkthrough.gif" width="700">
 
-<!--
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
--->
-
 ## Technologies Used
 
-<!--
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
--->
+- This website uses HTML and CSS programming languages.
+- [Bootstrap v4.5.x](https://getbootstrap.com/)
+    - The layout of this website is based on Boostrap's Grid system.
+    - It used to style buttons using its predefined styles as a starting point. They were personalized in order to get the final result we see along the website.
+    - Navigation bar is based on its navbar component and styled to achieve the final result. In order to collapse it when displayed on small screens, Bootstrap's JavaScript CDN was used.
+    - On the home page, the carousel is a Bootstrap predefined component. 
+    - Cards were used to displayed upcoming events on the Calendar page.
+- [Google Fonts](https://fonts.google.com/)
+    - Roboto and Bebas Neue font styles were used. For Roboto the follwing font weights were included: 100, 300, 400, 500, 700 and 900.
+- [FontAwesome](https://fontawesome.com/)
+    - FontAwesome's free icons were used in the Pre-Order page for the different payment methods.
 
 ## Testing
 
-<!--
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
--->
+All the tests done to this website can be found in [TESTING.md](TESTING.md)
 
 ## Deployment
+
+This project was developed using Gitpod IDE, committed to git and pushed to GitHub using the built in function within Gitpod.
+
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 <!--
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -229,18 +243,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 
-<!--
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
--->
+- The album cover images were provided by the band.
+- The texts about the band and each musician was based on their social media profiles like Facebook, Instagram and Youtube.
+- Videos were sourced from the band's Youtube profile.
 
 ### Media
 
-<!--
-- The photos used in this site were obtained from ...
--->
+All the media content displayed in this website was taken from the band's various social media profiles. They authorized it in advance.
 
 ### Acknowledgements
 
-<!--
-- I received inspiration for this project from X
--->
+Diogo Caetano is a childhood friend of mine so when he told me the band was preparing a new album it gave me inspiration to build this website.<br>
+****MENTOR****
