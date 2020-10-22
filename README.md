@@ -229,20 +229,25 @@ All the tests done to this website can be found in [TESTING.md](TESTING.md)
 
 This project was developed using Gitpod IDE, committed to git and pushed to GitHub using the built in function within Gitpod.
 
+
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 1. Log into [GitHub](https://github.com/).
-2. Navigate to my repositories and select 
+2. Navigate to my repositories and select **Claudio-C-Santos/MS1-bossamorna-website**.
+3. From the menu items below the repository name, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu and select **Master Branch** as the **Development Branch**. The **Master Branch** is where the deployed version can be accessed, the difference from the **Development Branch** is that in this last branch the files are commented to assist the user to read the code correctly.
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
 
-<!--
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Procedure to run code locally
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
--->
+1. Log into [GitHub](https://github.com/).
+2. Navigate to my repositories and select **Claudio-C-Santos/MS1-bossamorna-website**.
+3. Under the repository name, click "Clone or download".
+4. Click on dropdown button Code above the repository files area.
+5. In your local IDE open Git Bash.
+6. Access the directory you wish to clone the respository into.
+7. Type git clone and then paste the URL you copied in Step 3 like this "git clone https://github.com/Claudio-C-Santos/MS1-bossamorna-website.git"
+9. Press Enter. Your local clone will be created.
 
 ## Credits
 
@@ -259,4 +264,4 @@ All the media content displayed in this website was taken from the band's variou
 ### Acknowledgements
 
 Diogo Caetano is a childhood friend of mine so when he told me the band was preparing a new album it gave me inspiration to build this website.<br>
-****MENTOR****
+My mentor, Gurjot Singh helped on any issue I came accross and made an effort to keep me in track and not lose motivation.
