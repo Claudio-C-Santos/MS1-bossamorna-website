@@ -234,7 +234,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 2. Navigate to my repositories and select **Claudio-C-Santos/MS1-bossamorna-website**.
 3. From the menu items below the repository name, select **Settings**.
 4. Scroll down to the **GitHub Pages** section.
-5. Under **Source** click the drop-down menu and select **Master Branch** as the **Development Branch**. The **Master Branch** is where the deployed version can be accessed, the difference from the **Development Branch** is that in this last branch the files are commented to assist the user to read the code correctly.
+5. Under **Source** click the drop-down menu and select **Master Branch**. The **Master Branch** is where the deployed version can be accessed, the difference from the **Development Branch** is that in this last branch the files are commented to assist the user to read the code correctly.
 6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
 
 ### Procedure to run code locally
