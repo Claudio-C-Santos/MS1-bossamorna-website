@@ -69,8 +69,6 @@ button:focus {
     padding-top: 20px;
 }
 
-/* -------------------------Section Dividers <hr> */
-
 hr {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -81,8 +79,6 @@ hr {
     background-color: #be674d;
     height: 2px;
 }
-
-/* -------------------------Navigation Bar */
 
 .navbar {
     width: auto;
@@ -153,8 +149,6 @@ hr {
 #navbar-contact-btn {
     line-height: 75px;
 }
-
-/* -------------------------Footer */
 
 footer {
     background-color: #555555;
@@ -240,8 +234,6 @@ footer {
     border-bottom-left-radius: 25px;
 }
 
-/* -------------------------Index-New Album section */
-
 .new-album {
     font-family: "Bebas Neue", sans-serif; 
     text-align: center;
@@ -293,8 +285,6 @@ footer {
     text-shadow: none;
 }
 
-/* -------------------------Index-Gallery section */
-
 .image-carousel {
     padding: 0;
     background-image: url('../images/carousel-background.jpg'); 
@@ -335,8 +325,6 @@ footer {
     width: 100%;
 }
 
-/* -------------------------Index-Contact */
-
 .contact-forms {
     background-color: #f1efe4;
     font-family: "Roboto", sans-serif;
@@ -365,8 +353,6 @@ footer {
 #row-contact-btn {
     margin-bottom: 0;
 }
-
-/* -------------------------Band - About Us */
 
 .about-band {
     font-family: "Roboto", sans-serif; 
@@ -426,8 +412,6 @@ footer {
     margin-top: 25px;
 }
 
-/* -------------------------Gallery - Videos */
-
 iframe {
     border: none;
 }
@@ -436,8 +420,6 @@ iframe {
     text-align: center;
     margin: 40px 0 40px 0;
 }
-
-/* -------------------------Gallery - Photos */
 
 .row-photos {
     margin: 0 0 2rem 0;
@@ -449,8 +431,6 @@ iframe {
     padding: 1rem;
     border: 2px solid #72716d;
 }
-
-/* -------------------------Calendar */
 
 .card-calendar {
     width: 100%;
@@ -494,8 +474,6 @@ iframe {
     color: #f1efe4;
 }
 
-/* -------------------------Modals */
-
 .modal-background {
     background-color: #f1efe4;
 }
@@ -519,8 +497,6 @@ iframe {
     font-size: 1rem;
     letter-spacing: 2px;
 }
-
-/* -------------------------Forms */
 
 label {
     margin: 10px 0 0 0;
@@ -635,8 +611,6 @@ textarea {
     font-weight: 600;
     margin: 1rem 0 0 0;
 }
-
-/* -------------------------Media Queries */
 
 @media screen and (min-width: 425px) and (max-width: 768px){
 
