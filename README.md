@@ -229,7 +229,6 @@ All the tests done to this website can be found in [TESTING.md](TESTING.md)
 
 This project was developed using Gitpod IDE, committed to git and pushed to GitHub using the built in function within Gitpod.
 
-
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 1. Log into [GitHub](https://github.com/).
 2. Navigate to my repositories and select **Claudio-C-Santos/MS1-bossamorna-website**.

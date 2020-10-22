@@ -98,6 +98,7 @@ hr {
     margin-right: 20px;
     margin-left: 10px;
 }
+
 .navbar-brand img {
     width: 200px;
     height: 100%;
@@ -152,7 +153,6 @@ hr {
 #navbar-contact-btn {
     line-height: 75px;
 }
-
 
 /* -------------------------Footer */
 
@@ -313,7 +313,6 @@ footer {
     border: 10px inset #be674d;
 }
 
-
 #index-gallery-title { 
     margin: 0;
     padding-top: 10px;    
@@ -426,7 +425,6 @@ footer {
 .profile-socialmedia {
     margin-top: 25px;
 }
-
 
 /* -------------------------Gallery - Videos */
 
