@@ -316,7 +316,7 @@ footer {
 
 #index-gallery-title { 
     margin: 0;
-    margin-top: 15px;
+    padding-top: 10px;    
     font-family: "Bebas Neue", sans-serif; 
     text-align: center;
     color: #72716d;
@@ -329,6 +329,11 @@ footer {
 #carousel-opaque {
     width: 100%;
     background-color: rgba(241,239,228, 0.9); 
+}
+
+#carousel-row {
+    margin: 0;
+    width: 100%;
 }
 
 /* -------------------------Index-Contact */
@@ -690,6 +695,10 @@ body {
     font-size: 50px;
 }
 
+#index-gallery-title {
+    font-size: 50px;
+}
+
 }
 
 @media screen and (max-width: 425px) {
@@ -834,6 +843,16 @@ iframe {
 
 #h2-order-text {
     font-size: 1.5rem;
+}
+
+#index-gallery-title {
+    font-size: 25px;
+}
+
+#check-gallery-text {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
 }
